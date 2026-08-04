@@ -1,0 +1,104 @@
+Important: 
+FOR TEAMS:
+teamId is <playerId1>-<playerId2>-<playerId3> (separated by hypens)
+characterId within Teams is <characterId1>-<characterId2>-<characterId3> (separated by hyphens)
+
+totals.json SCHEMA
+{
+  players: {
+    "<playerId>": { //"<playerId"> is a discordId
+      names: {
+        "<playerName>": 12, //number of occurrences
+        "<alternateName>": 3 //number of occurrences
+      },
+
+      totals: {
+        placementPoints: 150,//totals for this player
+        knockoutPoints: 75,
+        damagePoints: 40,
+        damageRaw: 45000,
+        powerRankPoints: 265
+      },
+
+      characters: {
+        "<characterId>": 8, //number of occurrences with this character
+        "<characterId>": 4
+      },
+
+      games: [
+        "event-id-game-1", //gameId
+        "event-id-game-2",
+        "event-id-game-3"
+      ]
+    }
+  },
+
+
+  teams: {
+    "<teamId>": { //teamId is <playerId1>-<playerId2>-<playerId3> (playerIds separated by hyphens)
+      names: {
+        "<teamName>": 15, //number of team occurrences with this name
+        "<alternateTeamName>": 5
+      },
+
+      totals: {
+        placementPoints: 200, //totals for this team
+        knockoutPoints: 100,
+        damagePoints: 65,
+        damageRaw: 80000,
+        powerRankPoints: 365
+      },
+
+      characters: {
+        "<characterId>": 15, //<characterId>-<characterId>-<characterId> (each character used separated by hyphens) and number of occurrences
+        "<characterId>": 7
+      },
+
+      games: [
+        "event-id-game-1", //gameId
+        "event-id-game-4"
+      ]
+    }
+  },
+
+
+  characters: {
+    "<characterId>": { //characterId
+
+      players: {
+        "<playerId>": {
+          names: {
+            "<playerName>": 8,
+            "<alternateName>": 2
+          },
+
+          totals: {
+            placementPoints: 350, //totals number of points for this player with this character
+            knockoutPoints: 200,
+            damagePoints: 100,
+            damageRaw: 120000,
+            powerRankPoints: 650
+          },
+
+          games: [
+            "event-id-game-1", //games where this player used this character
+            "event-id-game-4"
+          ]
+        }
+      },
+      totals: {
+        placementPoints: 350, //total points this character has gotten with any player
+        knockoutPoints: 200,
+        damagePoints: 100,
+        damageRaw: 120000,
+        powerRankPoints: 650
+      },
+
+      games: [
+        "event-id-game-1", //gameIds for each game where this character has been used
+        "event-id-game-2",
+        "event-id-game-4"
+      ]
+    }
+  }
+}
