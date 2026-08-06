@@ -26,9 +26,9 @@ totals.json SCHEMA
       },
 
       games: [
-        "event-id-game-1", //gameId
-        "event-id-game-2",
-        "event-id-game-3"
+        "season-1/na/purl-open-1/game-1", //gameId (also is the path of this totals.json object)
+        "season-1/na/purl-open-1/game-2",
+        "season-1/na/purl-open-1/game-3"
       ]
     }
   },
@@ -55,8 +55,9 @@ totals.json SCHEMA
       },
 
       games: [
-        "event-id-game-1", //gameId
-        "event-id-game-4"
+        "season-1/na/purl-open-1/game-1", //gameId (also is the path of this totals.json object)
+        "season-1/na/purl-open-1/game-2",
+        "season-1/na/purl-open-1/game-3"
       ]
     }
   },
@@ -81,8 +82,9 @@ totals.json SCHEMA
           },
 
           games: [
-            "event-id-game-1", //games where this player used this character
-            "event-id-game-4"
+            "season-1/na/purl-open-1/game-1", //gameId where this player used this character (also is the path of this totals.json object)
+            "season-1/na/purl-open-1/game-2",
+            "season-1/na/purl-open-1/game-3"
           ]
         }
       },
@@ -95,9 +97,9 @@ totals.json SCHEMA
       },
 
       games: [
-        "event-id-game-1", //gameIds for each game where this character has been used
-        "event-id-game-2",
-        "event-id-game-4"
+        "season-1/na/purl-open-1/game-1", //gameIds for each game where this character has been used  (also is the path of this totals.json object)
+        "season-1/na/purl-open-1/game-2",
+        "season-1/na/purl-open-1/game-3"
       ]
     }
   }
