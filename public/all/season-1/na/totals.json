@@ -566,15 +566,15 @@
       "teams": {
         "26-27-28": 1
       },
+      "characters": {
+        "4": 1
+      },
       "totals": {
         "placementPoints": 15,
         "knockoutPoints": 4,
         "damagePoints": 3,
         "damageRaw": 6639,
         "powerRankPoints": 22
-      },
-      "characters": {
-        "4": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -587,15 +587,15 @@
       "teams": {
         "26-27-28": 1
       },
+      "characters": {
+        "11": 1
+      },
       "totals": {
         "placementPoints": 15,
         "knockoutPoints": 2,
         "damagePoints": 2,
         "damageRaw": 4919,
         "powerRankPoints": 19
-      },
-      "characters": {
-        "11": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -608,15 +608,15 @@
       "teams": {
         "26-27-28": 1
       },
+      "characters": {
+        "37": 1
+      },
       "totals": {
         "placementPoints": 15,
         "knockoutPoints": 2,
         "damagePoints": 1,
         "damageRaw": 3746,
         "powerRankPoints": 18
-      },
-      "characters": {
-        "37": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -629,15 +629,15 @@
       "teams": {
         "29-30-31": 1
       },
+      "characters": {
+        "44": 1
+      },
       "totals": {
         "placementPoints": 10,
         "knockoutPoints": 4,
         "damagePoints": 3,
         "damageRaw": 6968,
         "powerRankPoints": 17
-      },
-      "characters": {
-        "44": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -650,15 +650,15 @@
       "teams": {
         "29-30-31": 1
       },
+      "characters": {
+        "8": 1
+      },
       "totals": {
         "placementPoints": 10,
         "knockoutPoints": 2,
         "damagePoints": 1,
         "damageRaw": 3441,
         "powerRankPoints": 13
-      },
-      "characters": {
-        "8": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -671,15 +671,15 @@
       "teams": {
         "29-30-31": 1
       },
+      "characters": {
+        "37": 1
+      },
       "totals": {
         "placementPoints": 10,
         "knockoutPoints": 0,
         "damagePoints": 1,
         "damageRaw": 2662,
         "powerRankPoints": 11
-      },
-      "characters": {
-        "37": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -692,15 +692,15 @@
       "teams": {
         "18-19-32": 1
       },
+      "characters": {
+        "45": 1
+      },
       "totals": {
         "placementPoints": 8,
         "knockoutPoints": 1,
         "damagePoints": 2,
         "damageRaw": 4736,
         "powerRankPoints": 11
-      },
-      "characters": {
-        "45": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -713,15 +713,15 @@
       "teams": {
         "33-34-35": 1
       },
+      "characters": {
+        "52": 1
+      },
       "totals": {
         "placementPoints": 6,
         "knockoutPoints": 1,
         "damagePoints": 2,
         "damageRaw": 4604,
         "powerRankPoints": 9
-      },
-      "characters": {
-        "52": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -734,15 +734,15 @@
       "teams": {
         "33-34-35": 1
       },
+      "characters": {
+        "57": 1
+      },
       "totals": {
         "placementPoints": 6,
         "knockoutPoints": 0,
         "damagePoints": 0,
         "damageRaw": 849,
         "powerRankPoints": 6
-      },
-      "characters": {
-        "57": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -755,15 +755,15 @@
       "teams": {
         "33-34-35": 1
       },
+      "characters": {
+        "35": 1
+      },
       "totals": {
         "placementPoints": 6,
         "knockoutPoints": 0,
         "damagePoints": 0,
         "damageRaw": 23,
         "powerRankPoints": 6
-      },
-      "characters": {
-        "35": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -776,15 +776,15 @@
       "teams": {
         "36-37-38": 1
       },
+      "characters": {
+        "45": 1
+      },
       "totals": {
         "placementPoints": 3,
         "knockoutPoints": 2,
         "damagePoints": 1,
         "damageRaw": 3504,
         "powerRankPoints": 6
-      },
-      "characters": {
-        "45": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -797,15 +797,15 @@
       "teams": {
         "36-37-38": 1
       },
+      "characters": {
+        "29": 1
+      },
       "totals": {
         "placementPoints": 3,
         "knockoutPoints": 1,
         "damagePoints": 1,
         "damageRaw": 2635,
         "powerRankPoints": 5
-      },
-      "characters": {
-        "29": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -818,15 +818,15 @@
       "teams": {
         "36-37-38": 1
       },
+      "characters": {
+        "19": 1
+      },
       "totals": {
         "placementPoints": 3,
         "knockoutPoints": 0,
         "damagePoints": 0,
         "damageRaw": 1370,
         "powerRankPoints": 3
-      },
-      "characters": {
-        "19": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -839,15 +839,15 @@
       "teams": {
         "39-40-41": 1
       },
+      "characters": {
+        "16": 1
+      },
       "totals": {
         "placementPoints": 2,
         "knockoutPoints": 1,
         "damagePoints": 2,
         "damageRaw": 5123,
         "powerRankPoints": 5
-      },
-      "characters": {
-        "10": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -860,15 +860,15 @@
       "teams": {
         "39-40-41": 1
       },
+      "characters": {
+        "55": 1
+      },
       "totals": {
         "placementPoints": 2,
         "knockoutPoints": 1,
         "damagePoints": 1,
         "damageRaw": 2277,
         "powerRankPoints": 4
-      },
-      "characters": {
-        "33": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -881,15 +881,15 @@
       "teams": {
         "39-40-41": 1
       },
+      "characters": {
+        "39": 1
+      },
       "totals": {
         "placementPoints": 2,
         "knockoutPoints": 1,
         "damagePoints": 0,
         "damageRaw": 1093,
         "powerRankPoints": 3
-      },
-      "characters": {
-        "39": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -902,15 +902,15 @@
       "teams": {
         "42-43-44": 1
       },
+      "characters": {
+        "40": 1
+      },
       "totals": {
         "placementPoints": 1,
         "knockoutPoints": 2,
         "damagePoints": 1,
         "damageRaw": 3396,
         "powerRankPoints": 4
-      },
-      "characters": {
-        "40": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -923,15 +923,15 @@
       "teams": {
         "42-43-44": 1
       },
+      "characters": {
+        "17": 1
+      },
       "totals": {
         "placementPoints": 1,
         "knockoutPoints": 0,
         "damagePoints": 1,
         "damageRaw": 2679,
         "powerRankPoints": 2
-      },
-      "characters": {
-        "17": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -944,15 +944,15 @@
       "teams": {
         "42-43-44": 1
       },
+      "characters": {
+        "8": 1
+      },
       "totals": {
         "placementPoints": 1,
         "knockoutPoints": 0,
         "damagePoints": 0,
         "damageRaw": 727,
         "powerRankPoints": 1
-      },
-      "characters": {
-        "8": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -965,15 +965,15 @@
       "teams": {
         "11-45-50": 1
       },
+      "characters": {
+        "59": 1
+      },
       "totals": {
         "placementPoints": 0,
         "knockoutPoints": 0,
         "damagePoints": 0,
         "damageRaw": 1653,
         "powerRankPoints": 0
-      },
-      "characters": {
-        "59": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -986,15 +986,15 @@
       "teams": {
         "11-45-50": 1
       },
+      "characters": {
+        "13": 1
+      },
       "totals": {
         "placementPoints": 0,
         "knockoutPoints": 0,
         "damagePoints": 0,
         "damageRaw": 600,
         "powerRankPoints": 0
-      },
-      "characters": {
-        "13": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1229,15 +1229,15 @@
       "names": {
         "The Clappers": 1
       },
+      "characters": {
+        "4-11-37": 1
+      },
       "totals": {
         "placementPoints": 15,
         "knockoutPoints": 8,
         "damagePoints": 7,
         "damageRaw": 15304,
         "powerRankPoints": 30
-      },
-      "characters": {
-        "4-11-37": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1247,15 +1247,15 @@
       "names": {
         "RDR": 1
       },
+      "characters": {
+        "8-37-44": 1
+      },
       "totals": {
         "placementPoints": 10,
         "knockoutPoints": 6,
         "damagePoints": 6,
         "damageRaw": 13071,
         "powerRankPoints": 22
-      },
-      "characters": {
-        "8-37-44": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1265,15 +1265,15 @@
       "names": {
         "adopt me": 1
       },
+      "characters": {
+        "37-44-45": 1
+      },
       "totals": {
         "placementPoints": 8,
         "knockoutPoints": 5,
         "damagePoints": 6,
         "damageRaw": 12679,
         "powerRankPoints": 19
-      },
-      "characters": {
-        "37-44-45": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1283,15 +1283,15 @@
       "names": {
         "D-Boyz & Nate": 1
       },
+      "characters": {
+        "35-52-57": 1
+      },
       "totals": {
         "placementPoints": 6,
         "knockoutPoints": 1,
         "damagePoints": 2,
         "damageRaw": 5476,
         "powerRankPoints": 9
-      },
-      "characters": {
-        "35-52-57": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1301,15 +1301,15 @@
       "names": {
         "Kendocopters": 1
       },
+      "characters": {
+        "19-29-45": 1
+      },
       "totals": {
         "placementPoints": 3,
         "knockoutPoints": 3,
         "damagePoints": 3,
         "damageRaw": 7509,
         "powerRankPoints": 9
-      },
-      "characters": {
-        "19-29-45": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1319,15 +1319,15 @@
       "names": {
         "NTS": 1
       },
+      "characters": {
+        "16-39-55": 1
+      },
       "totals": {
         "placementPoints": 2,
         "knockoutPoints": 3,
         "damagePoints": 4,
         "damageRaw": 8493,
         "powerRankPoints": 9
-      },
-      "characters": {
-        "10-33-39": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1337,15 +1337,15 @@
       "names": {
         "BIG BRR": 1
       },
+      "characters": {
+        "8-17-40": 1
+      },
       "totals": {
         "placementPoints": 1,
         "knockoutPoints": 2,
         "damagePoints": 3,
         "damageRaw": 6802,
         "powerRankPoints": 6
-      },
-      "characters": {
-        "8-17-40": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1355,15 +1355,15 @@
       "names": {
         "Gen Z": 1
       },
+      "characters": {
+        "13-57-59": 1
+      },
       "totals": {
         "placementPoints": 0,
         "knockoutPoints": 0,
         "damagePoints": 1,
         "damageRaw": 3500,
         "powerRankPoints": 1
-      },
-      "characters": {
-        "13-57-59": 1
       },
       "games": [
         "season-1/na/event-2/game-1"
@@ -1406,6 +1406,9 @@
         "26": {
           "names": {
             "Indra": 1
+          },
+          "teams": {
+            "26-27-28": 1
           },
           "totals": {
             "placementPoints": 15,
@@ -1566,6 +1569,9 @@
           "names": {
             "Dan": 1
           },
+          "teams": {
+            "29-30-31": 1
+          },
           "totals": {
             "placementPoints": 10,
             "knockoutPoints": 2,
@@ -1581,6 +1587,9 @@
         "44": {
           "names": {
             "chasieru": 1
+          },
+          "teams": {
+            "42-43-44": 1
           },
           "totals": {
             "placementPoints": 1,
@@ -1608,36 +1617,6 @@
         "season-1/na/event-1/game-3",
         "season-1/na/event-1/game-4",
         "season-1/na/event-1/game-5",
-        "season-1/na/event-2/game-1"
-      ]
-    },
-    "10": {
-      "players": {
-        "39": {
-          "names": {
-            "C - L": 1
-          },
-          "totals": {
-            "placementPoints": 2,
-            "knockoutPoints": 1,
-            "damagePoints": 2,
-            "damageRaw": 5123,
-            "powerRankPoints": 5
-          },
-          "games": [
-            "season-1/na/event-2/game-1"
-          ],
-          "characters": {}
-        }
-      },
-      "totals": {
-        "placementPoints": 2,
-        "knockoutPoints": 1,
-        "damagePoints": 2,
-        "damageRaw": 5123,
-        "powerRankPoints": 5
-      },
-      "games": [
         "season-1/na/event-2/game-1"
       ]
     },
@@ -1678,6 +1657,9 @@
         "27": {
           "names": {
             "RaZor": 1
+          },
+          "teams": {
+            "26-27-28": 1
           },
           "totals": {
             "placementPoints": 15,
@@ -1745,6 +1727,9 @@
           "names": {
             "Inkrazezro": 1
           },
+          "teams": {
+            "11-45-50": 1
+          },
           "totals": {
             "placementPoints": 0,
             "knockoutPoints": 0,
@@ -1805,11 +1790,47 @@
         "season-1/na/event-1/game-4"
       ]
     },
+    "16": {
+      "players": {
+        "39": {
+          "names": {
+            "C - L": 1
+          },
+          "teams": {
+            "39-40-41": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 1,
+            "damagePoints": 2,
+            "damageRaw": 5123,
+            "powerRankPoints": 5
+          },
+          "games": [
+            "season-1/na/event-2/game-1"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 2,
+        "knockoutPoints": 1,
+        "damagePoints": 2,
+        "damageRaw": 5123,
+        "powerRankPoints": 5
+      },
+      "games": [
+        "season-1/na/event-2/game-1"
+      ]
+    },
     "17": {
       "players": {
         "43": {
           "names": {
             "KingSan": 1
+          },
+          "teams": {
+            "42-43-44": 1
           },
           "totals": {
             "placementPoints": 1,
@@ -1925,6 +1946,9 @@
         "38": {
           "names": {
             "H3llFir3": 1
+          },
+          "teams": {
+            "36-37-38": 1
           },
           "totals": {
             "placementPoints": 3,
@@ -2090,6 +2114,9 @@
           "names": {
             "Jules_Samarai": 1
           },
+          "teams": {
+            "36-37-38": 1
+          },
           "totals": {
             "placementPoints": 3,
             "knockoutPoints": 1,
@@ -2230,41 +2257,14 @@
         "season-1/na/event-1/game-5"
       ]
     },
-    "33": {
-      "players": {
-        "40": {
-          "names": {
-            "奈願": 1
-          },
-          "totals": {
-            "placementPoints": 2,
-            "knockoutPoints": 1,
-            "damagePoints": 1,
-            "damageRaw": 2277,
-            "powerRankPoints": 4
-          },
-          "games": [
-            "season-1/na/event-2/game-1"
-          ],
-          "characters": {}
-        }
-      },
-      "totals": {
-        "placementPoints": 2,
-        "knockoutPoints": 1,
-        "damagePoints": 1,
-        "damageRaw": 2277,
-        "powerRankPoints": 4
-      },
-      "games": [
-        "season-1/na/event-2/game-1"
-      ]
-    },
     "35": {
       "players": {
         "35": {
           "names": {
             "Nort": 1
+          },
+          "teams": {
+            "33-34-35": 1
           },
           "totals": {
             "placementPoints": 6,
@@ -2387,6 +2387,9 @@
           "names": {
             "LekurogirlTTV": 1
           },
+          "teams": {
+            "26-27-28": 1
+          },
           "totals": {
             "placementPoints": 15,
             "knockoutPoints": 2,
@@ -2402,6 +2405,9 @@
         "31": {
           "names": {
             "Rozar": 1
+          },
+          "teams": {
+            "29-30-31": 1
           },
           "totals": {
             "placementPoints": 10,
@@ -2453,6 +2459,9 @@
         "41": {
           "names": {
             "ShadowMech": 1
+          },
+          "teams": {
+            "39-40-41": 1
           },
           "totals": {
             "placementPoints": 2,
@@ -2589,6 +2598,9 @@
           "names": {
             "CITG": 1
           },
+          "teams": {
+            "42-43-44": 1
+          },
           "totals": {
             "placementPoints": 1,
             "knockoutPoints": 2,
@@ -2706,6 +2718,9 @@
           "names": {
             "Spooky": 1
           },
+          "teams": {
+            "18-19-32": 1
+          },
           "totals": {
             "placementPoints": 8,
             "knockoutPoints": 2,
@@ -2721,6 +2736,9 @@
         "29": {
           "names": {
             "RedTick67": 1
+          },
+          "teams": {
+            "29-30-31": 1
           },
           "totals": {
             "placementPoints": 10,
@@ -2837,6 +2855,9 @@
           "names": {
             "Mutation Z": 1
           },
+          "teams": {
+            "18-19-32": 1
+          },
           "totals": {
             "placementPoints": 8,
             "knockoutPoints": 1,
@@ -2852,6 +2873,9 @@
         "36": {
           "names": {
             "Letthedevilout": 1
+          },
+          "teams": {
+            "36-37-38": 1
           },
           "totals": {
             "placementPoints": 3,
@@ -3044,6 +3068,9 @@
           "names": {
             "TheBestLoser": 1
           },
+          "teams": {
+            "33-34-35": 1
+          },
           "totals": {
             "placementPoints": 6,
             "knockoutPoints": 1,
@@ -3099,6 +3126,39 @@
         "season-1/na/event-1/game-2"
       ]
     },
+    "55": {
+      "players": {
+        "40": {
+          "names": {
+            "奈願": 1
+          },
+          "teams": {
+            "39-40-41": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 1,
+            "damagePoints": 1,
+            "damageRaw": 2277,
+            "powerRankPoints": 4
+          },
+          "games": [
+            "season-1/na/event-2/game-1"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 2,
+        "knockoutPoints": 1,
+        "damagePoints": 1,
+        "damageRaw": 2277,
+        "powerRankPoints": 4
+      },
+      "games": [
+        "season-1/na/event-2/game-1"
+      ]
+    },
     "57": {
       "players": {
         "11": {
@@ -3126,6 +3186,9 @@
         "34": {
           "names": {
             "Wildone": 1
+          },
+          "teams": {
+            "33-34-35": 1
           },
           "totals": {
             "placementPoints": 6,
@@ -3193,6 +3256,9 @@
         "45": {
           "names": {
             "P E Kidark": 1
+          },
+          "teams": {
+            "11-45-50": 1
           },
           "totals": {
             "placementPoints": 0,
