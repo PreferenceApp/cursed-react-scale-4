@@ -4,7 +4,7 @@ import path from "path";
 const ROOT = path.resolve("public/all");
 
 // --------------------------------------------------
-// Totals Helpers (copied from DataContext)
+// Totals Helpers
 // --------------------------------------------------
 
 const emptyTotals = () => ({
@@ -13,7 +13,9 @@ const emptyTotals = () => ({
     characters: {},
 });
 
+
 const addNumbers = (a = {}, b = {}) => {
+
     const result = { ...a };
 
     for (const [key, value] of Object.entries(b || {})) {
@@ -23,13 +25,47 @@ const addNumbers = (a = {}, b = {}) => {
     return result;
 };
 
-const deepCopyStats = (item) => ({
+
+const mergeGames = (a = [], b = []) => {
+
+    const games = new Set(a);
+
+    for (const game of b) {
+        games.add(game);
+    }
+
+    return [...games];
+};
+
+
+// --------------------------------------------------
+// Deep Copy
+// --------------------------------------------------
+
+const deepCopyStats = (item = {}) => ({
     ...item,
-    totals: { ...item.totals },
-    names: { ...item.names },
-    characters: { ...item.characters },
-    games: item.games ? [...item.games] : []
+
+    totals: {
+        ...(item.totals || {})
+    },
+
+    names: {
+        ...(item.names || {})
+    },
+
+    teams: {
+        ...(item.teams || {})
+    },
+
+    characters: {
+        ...(item.characters || {})
+    },
+
+    games: item.games
+        ? [...item.games]
+        : []
 });
+
 
 // --------------------------------------------------
 // Merge Operations
@@ -42,29 +78,31 @@ const mergeStats = (target, source) => {
         source.totals
     );
 
+
     target.names = addNumbers(
         target.names,
         source.names
     );
+
+
+    target.teams = addNumbers(
+        target.teams,
+        source.teams
+    );
+
 
     target.characters = addNumbers(
         target.characters,
         source.characters
     );
 
-    if (source.games?.length) {
 
-        const games = new Set(
-            target.games || []
-        );
-
-        for (const game of source.games) {
-            games.add(game);
-        }
-
-        target.games = Array.from(games);
-    }
+    target.games = mergeGames(
+        target.games,
+        source.games
+    );
 };
+
 
 
 const mergeCollections = (
@@ -85,10 +123,10 @@ const mergeCollections = (
                 target[id],
                 item
             );
-
         }
     }
 };
+
 
 
 const mergeCharacters = (
@@ -98,18 +136,23 @@ const mergeCharacters = (
 
     for (const [id, character] of Object.entries(source || {})) {
 
+
         if (!target[id]) {
 
             target[id] = {
                 ...character,
+
                 totals: {
-                    ...character.totals
+                    ...(character.totals || {})
                 },
-                games: character.games
-                    ? [...character.games]
-                    : [],
+
+                games: [
+                    ...(character.games || [])
+                ],
+
                 players: {}
             };
+
 
             mergeCollections(
                 target[id].players,
@@ -117,8 +160,10 @@ const mergeCharacters = (
                 mergeStats
             );
 
+
             continue;
         }
+
 
 
         target[id].totals = addNumbers(
@@ -127,18 +172,10 @@ const mergeCharacters = (
         );
 
 
-        if (character.games?.length) {
-
-            const games = new Set(
-                target[id].games || []
-            );
-
-            for (const game of character.games) {
-                games.add(game);
-            }
-
-            target[id].games = Array.from(games);
-        }
+        target[id].games = mergeGames(
+            target[id].games,
+            character.games
+        );
 
 
         if (!target[id].players) {
@@ -155,6 +192,7 @@ const mergeCharacters = (
 };
 
 
+
 const mergeTotals = (
     target,
     source
@@ -166,11 +204,13 @@ const mergeTotals = (
         mergeStats
     );
 
+
     mergeCollections(
         target.teams,
         source.teams,
         mergeStats
     );
+
 
     mergeCharacters(
         target.characters,
@@ -193,7 +233,6 @@ async function exists(file) {
     } catch {
 
         return false;
-
     }
 }
 
@@ -206,12 +245,18 @@ async function buildFolder(folder) {
 
     const folderName = path.basename(folder);
 
-    // EXCLUSION CHECK: Skip this folder entirely if it matches your rule
-    // Example rule: Ignore folders starting with "unranked" or "ignore"
+
+    // Ignore excluded folders
     if (folderName.startsWith("unranked")) {
-        console.log(`Skipping excluded folder: ${folder}`);
-        return emptyTotals(); // Return empty totals so it doesn't break parent merges
+
+        console.log(
+            `Skipping excluded folder: ${folder}`
+        );
+
+        return emptyTotals();
     }
+
+
 
     const entries = await fs.readdir(
         folder,
@@ -228,30 +273,33 @@ async function buildFolder(folder) {
         );
 
 
+
     const totalsFile = path.join(
         folder,
         "totals.json"
     );
 
 
+
     /*
-        Leaf folder:
+        Leaf folder
 
         Example:
-        public/all/season-1/na/event/game-1
+        public/all/season-1/na/event-1/game-1
 
         This is the source of truth.
-        NEVER rewrite it.
     */
+
     if (childFolders.length === 0) {
+
 
         if (!(await exists(totalsFile))) {
 
             throw new Error(
                 `Missing totals.json in ${folder}`
             );
-
         }
+
 
         return JSON.parse(
             await fs.readFile(
@@ -262,13 +310,15 @@ async function buildFolder(folder) {
     }
 
 
-    /*
-        Parent folder:
 
-        Merge children totals
+    /*
+        Parent folder
+
+        Merge children
     */
 
     const merged = emptyTotals();
+
 
 
     for (const child of childFolders) {
@@ -282,6 +332,7 @@ async function buildFolder(folder) {
             childTotals
         );
     }
+
 
 
     await fs.writeFile(
@@ -313,12 +364,15 @@ async function main() {
         "Building totals.json files..."
     );
 
+
     await buildFolder(ROOT);
+
 
     console.log(
         "Finished building totals."
     );
 }
+
 
 
 main()
