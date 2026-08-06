@@ -1,0 +1,2864 @@
+{
+  "players": {
+    "1": {
+      "names": {
+        "ScrompyRoko67": 9
+      },
+      "totals": {
+        "placementPoints": 116,
+        "knockoutPoints": 35,
+        "damagePoints": 22,
+        "damageRaw": 49762,
+        "powerRankPoints": 173
+      },
+      "characters": {
+        "18": 2,
+        "19": 7
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "2": {
+      "names": {
+        "KING_67": 9
+      },
+      "totals": {
+        "placementPoints": 116,
+        "knockoutPoints": 15,
+        "damagePoints": 17,
+        "damageRaw": 39749,
+        "powerRankPoints": 148
+      },
+      "characters": {
+        "40": 9
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "3": {
+      "names": {
+        "Whos_luminth67": 4,
+        "Whos_liminth67": 5
+      },
+      "totals": {
+        "placementPoints": 116,
+        "knockoutPoints": 13,
+        "damagePoints": 9,
+        "damageRaw": 26100,
+        "powerRankPoints": 138
+      },
+      "characters": {
+        "8": 8,
+        "34": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "4": {
+      "names": {
+        "argentino man": 6
+      },
+      "totals": {
+        "placementPoints": 58,
+        "knockoutPoints": 25,
+        "damagePoints": 24,
+        "damageRaw": 57634,
+        "powerRankPoints": 107
+      },
+      "characters": {
+        "13": 6
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2"
+      ]
+    },
+    "5": {
+      "names": {
+        "n1zo": 5
+      },
+      "totals": {
+        "placementPoints": 35,
+        "knockoutPoints": 4,
+        "damagePoints": 8,
+        "damageRaw": 20142,
+        "powerRankPoints": 47
+      },
+      "characters": {
+        "11": 1,
+        "13": 2,
+        "29": 1,
+        "40": 1
+      },
+      "games": [
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "6": {
+      "names": {
+        "n1zo": 4,
+        "Aresbuc": 3
+      },
+      "totals": {
+        "placementPoints": 66,
+        "knockoutPoints": 3,
+        "damagePoints": 12,
+        "damageRaw": 28267,
+        "powerRankPoints": 81
+      },
+      "characters": {
+        "37": 2,
+        "40": 5
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3"
+      ]
+    },
+    "7": {
+      "names": {
+        "Aresbuc": 4,
+        "WitheredFreddy": 5
+      },
+      "totals": {
+        "placementPoints": 90,
+        "knockoutPoints": 24,
+        "damagePoints": 19,
+        "damageRaw": 47820,
+        "powerRankPoints": 133
+      },
+      "characters": {
+        "32": 1,
+        "37": 4,
+        "45": 2,
+        "47": 1,
+        "59": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "8": {
+      "names": {
+        "WitheredFreddy": 4,
+        "Rotty!": 5
+      },
+      "totals": {
+        "placementPoints": 82,
+        "knockoutPoints": 32,
+        "damagePoints": 21,
+        "damageRaw": 53822,
+        "powerRankPoints": 135
+      },
+      "characters": {
+        "11": 1,
+        "29": 3,
+        "30": 1,
+        "32": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "9": {
+      "names": {
+        "Rotty!": 4,
+        "Devil Trigger": 5
+      },
+      "totals": {
+        "placementPoints": 82,
+        "knockoutPoints": 14,
+        "damagePoints": 14,
+        "damageRaw": 39051,
+        "powerRankPoints": 110
+      },
+      "characters": {
+        "8": 1,
+        "29": 4,
+        "37": 2,
+        "50": 2
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "10": {
+      "names": {
+        "Devil Trigger": 4,
+        "P E devil": 5
+      },
+      "totals": {
+        "placementPoints": 54,
+        "knockoutPoints": 15,
+        "damagePoints": 14,
+        "damageRaw": 37320,
+        "powerRankPoints": 83
+      },
+      "characters": {
+        "37": 4,
+        "57": 5
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "11": {
+      "names": {
+        "P E devil": 3,
+        "P ∑ devil": 1,
+        "Nagants toilet": 5
+      },
+      "totals": {
+        "placementPoints": 46,
+        "knockoutPoints": 14,
+        "damagePoints": 11,
+        "damageRaw": 33298,
+        "powerRankPoints": 71
+      },
+      "characters": {
+        "37": 5,
+        "57": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "12": {
+      "names": {
+        "Nagants toilet": 4,
+        "HMM M3": 5
+      },
+      "totals": {
+        "placementPoints": 46,
+        "knockoutPoints": 0,
+        "damagePoints": 7,
+        "damageRaw": 26705,
+        "powerRankPoints": 53
+      },
+      "characters": {
+        "15": 2,
+        "37": 4,
+        "45": 3
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "13": {
+      "names": {
+        "HMM M3": 4,
+        "Gonkillu5": 5
+      },
+      "totals": {
+        "placementPoints": 35,
+        "knockoutPoints": 1,
+        "damagePoints": 4,
+        "damageRaw": 19785,
+        "powerRankPoints": 40
+      },
+      "characters": {
+        "31": 1,
+        "42": 3,
+        "43": 1,
+        "45": 3,
+        "51": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "14": {
+      "names": {
+        "Gonkillu5": 4,
+        "Kayue": 5
+      },
+      "totals": {
+        "placementPoints": 23,
+        "knockoutPoints": 0,
+        "damagePoints": 10,
+        "damageRaw": 31196,
+        "powerRankPoints": 33
+      },
+      "characters": {
+        "8": 1,
+        "42": 4,
+        "45": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "15": {
+      "names": {
+        "Ж Kayue": 2,
+        "Kayue": 2,
+        "?Report Me?": 5
+      },
+      "totals": {
+        "placementPoints": 23,
+        "knockoutPoints": 2,
+        "damagePoints": 7,
+        "damageRaw": 25066,
+        "powerRankPoints": 32
+      },
+      "characters": {
+        "3": 1,
+        "18": 1,
+        "19": 3,
+        "45": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "16": {
+      "names": {
+        "«¿?Report Me?¿»": 1,
+        "?Report Me?": 2,
+        "°¿?Report Me?¿°": 1,
+        "Lethal Two": 3
+      },
+      "totals": {
+        "placementPoints": 17,
+        "knockoutPoints": 3,
+        "damagePoints": 8,
+        "damageRaw": 20197,
+        "powerRankPoints": 28
+      },
+      "characters": {
+        "6": 1,
+        "19": 4,
+        "27": 1,
+        "42": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3"
+      ]
+    },
+    "17": {
+      "names": {
+        "E | Lethal Two": 4,
+        "spooky": 5
+      },
+      "totals": {
+        "placementPoints": 38,
+        "knockoutPoints": 6,
+        "damagePoints": 11,
+        "damageRaw": 30147,
+        "powerRankPoints": 55
+      },
+      "characters": {
+        "32": 3,
+        "40": 1,
+        "42": 4,
+        "45": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "18": {
+      "names": {
+        "K--×spooky": 1,
+        "spooky": 2,
+        "K-×spooky": 1,
+        "Kawaii": 5
+      },
+      "totals": {
+        "placementPoints": 38,
+        "knockoutPoints": 2,
+        "damagePoints": 3,
+        "damageRaw": 17233,
+        "powerRankPoints": 43
+      },
+      "characters": {
+        "37": 4,
+        "40": 1,
+        "45": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "19": {
+      "names": {
+        "Kawaii": 4,
+        "RuggedUma": 5
+      },
+      "totals": {
+        "placementPoints": 29,
+        "knockoutPoints": 0,
+        "damagePoints": 4,
+        "damageRaw": 19741,
+        "powerRankPoints": 33
+      },
+      "characters": {
+        "1": 1,
+        "23": 2,
+        "37": 4,
+        "45": 2
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "20": {
+      "names": {
+        "RuggedUma": 4,
+        "-Alucard-": 5
+      },
+      "totals": {
+        "placementPoints": 25,
+        "knockoutPoints": 0,
+        "damagePoints": 7,
+        "damageRaw": 18682,
+        "powerRankPoints": 32
+      },
+      "characters": {
+        "6": 1,
+        "7": 1,
+        "22": 1,
+        "45": 4,
+        "53": 2
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "21": {
+      "names": {
+        "Hāshīra": 1,
+        "Hashira": 2,
+        "Hāšhîra": 1,
+        "Harshira": 5
+      },
+      "totals": {
+        "placementPoints": 25,
+        "knockoutPoints": 9,
+        "damagePoints": 5,
+        "damageRaw": 22949,
+        "powerRankPoints": 39
+      },
+      "characters": {
+        "39": 1,
+        "40": 8
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "22": {
+      "names": {
+        "-Alucard-": 2,
+        "Alucard": 2
+      },
+      "totals": {
+        "placementPoints": 4,
+        "knockoutPoints": 0,
+        "damagePoints": 0,
+        "damageRaw": 2564,
+        "powerRankPoints": 4
+      },
+      "characters": {
+        "6": 1,
+        "7": 3
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "51": {
+      "names": {
+        "Spongi": 2
+      },
+      "totals": {
+        "placementPoints": 25,
+        "knockoutPoints": 5,
+        "damagePoints": 5,
+        "damageRaw": 10547,
+        "powerRankPoints": 35
+      },
+      "characters": {
+        "43": 1,
+        "50": 1
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "6a6ee8f600244547a9f7": {
+      "names": {
+        "Arescook": 2
+      },
+      "totals": {
+        "placementPoints": 9,
+        "knockoutPoints": 6,
+        "damagePoints": 4,
+        "damageRaw": 9864,
+        "powerRankPoints": 19
+      },
+      "characters": {
+        "27": 1,
+        "28": 1
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "6a6ee8eb000632c82199": {
+      "names": {
+        "ghechis": 2
+      },
+      "totals": {
+        "placementPoints": 9,
+        "knockoutPoints": 0,
+        "damagePoints": 1,
+        "damageRaw": 4300,
+        "powerRankPoints": 10
+      },
+      "characters": {
+        "37": 2
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    }
+  },
+  "teams": {
+    "1-2-3": {
+      "names": {
+        "Tun tun citos": 9
+      },
+      "totals": {
+        "placementPoints": 116,
+        "knockoutPoints": 63,
+        "damagePoints": 52,
+        "damageRaw": 115611,
+        "powerRankPoints": 231
+      },
+      "characters": {
+        "8-18-40": 2,
+        "8-19-40": 6,
+        "19-34-40": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "4-6-7": {
+      "names": {
+        "3 Bautista": 4
+      },
+      "totals": {
+        "placementPoints": 40,
+        "knockoutPoints": 24,
+        "damagePoints": 32,
+        "damageRaw": 69556,
+        "powerRankPoints": 96
+      },
+      "characters": {
+        "13-37-40": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "8-9-10": {
+      "names": {
+        "Team GG": 4
+      },
+      "totals": {
+        "placementPoints": 32,
+        "knockoutPoints": 20,
+        "damagePoints": 28,
+        "damageRaw": 63720,
+        "powerRankPoints": 80
+      },
+      "characters": {
+        "29-32-37": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "11-12-13": {
+      "names": {
+        "Gen z": 4
+      },
+      "totals": {
+        "placementPoints": 24,
+        "knockoutPoints": 12,
+        "damagePoints": 20,
+        "damageRaw": 40836,
+        "powerRankPoints": 56
+      },
+      "characters": {
+        "37-51-57": 1,
+        "37-45-57": 3
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "14-15-16": {
+      "names": {
+        "The chiefers": 4
+      },
+      "totals": {
+        "placementPoints": 12,
+        "knockoutPoints": 0,
+        "damagePoints": 20,
+        "damageRaw": 43220,
+        "powerRankPoints": 32
+      },
+      "characters": {
+        "19-42-45": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "17-18-19": {
+      "names": {
+        "Viltrum": 4
+      },
+      "totals": {
+        "placementPoints": 8,
+        "knockoutPoints": 0,
+        "damagePoints": 12,
+        "damageRaw": 24012,
+        "powerRankPoints": 20
+      },
+      "characters": {
+        "37-42-45": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "20-21-22": {
+      "names": {
+        "Meta Slop": 4
+      },
+      "totals": {
+        "placementPoints": 4,
+        "knockoutPoints": 4,
+        "damagePoints": 8,
+        "damageRaw": 19152,
+        "powerRankPoints": 16
+      },
+      "characters": {
+        "7-40-45": 3,
+        "6-40-45": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "4-5-6": {
+      "names": {
+        "3 Bautista": 2
+      },
+      "totals": {
+        "placementPoints": 18,
+        "knockoutPoints": 11,
+        "damagePoints": 17,
+        "damageRaw": 36563,
+        "powerRankPoints": 46
+      },
+      "characters": {
+        "13-37-40": 1,
+        "11-13-37": 1
+      },
+      "games": [
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2"
+      ]
+    },
+    "7-8-9": {
+      "names": {
+        "Team GG": 5
+      },
+      "totals": {
+        "placementPoints": 50,
+        "knockoutPoints": 46,
+        "damagePoints": 35,
+        "damageRaw": 77453,
+        "powerRankPoints": 131
+      },
+      "characters": {
+        "29-32-37": 1,
+        "29-37-45": 1,
+        "29-47-50": 1,
+        "8-11-59": 1,
+        "30-45-50": 1
+      },
+      "games": [
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "10-11-12": {
+      "names": {
+        "Gen z": 5
+      },
+      "totals": {
+        "placementPoints": 22,
+        "knockoutPoints": 13,
+        "damagePoints": 23,
+        "damageRaw": 49779,
+        "powerRankPoints": 58
+      },
+      "characters": {
+        "37-45-57": 3,
+        "15-37-57": 2
+      },
+      "games": [
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "13-14-15": {
+      "names": {
+        "The chiefers": 5
+      },
+      "totals": {
+        "placementPoints": 11,
+        "knockoutPoints": 3,
+        "damagePoints": 16,
+        "damageRaw": 35195,
+        "powerRankPoints": 30
+      },
+      "characters": {
+        "19-42-45": 2,
+        "19-43-45": 1,
+        "3-8-42": 1,
+        "18-31-45": 1
+      },
+      "games": [
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "16-17-18": {
+      "names": {
+        "Viltrum": 3
+      },
+      "totals": {
+        "placementPoints": 5,
+        "knockoutPoints": 6,
+        "damagePoints": 10,
+        "damageRaw": 21324,
+        "powerRankPoints": 21
+      },
+      "characters": {
+        "37-42-45": 1,
+        "6-37-40": 1,
+        "27-32-40": 1
+      },
+      "games": [
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3"
+      ]
+    },
+    "19-20-21": {
+      "names": {
+        "Meta Slop": 5
+      },
+      "totals": {
+        "placementPoints": 21,
+        "knockoutPoints": 5,
+        "damagePoints": 17,
+        "damageRaw": 38424,
+        "powerRankPoints": 43
+      },
+      "characters": {
+        "6-40-45": 1,
+        "1-39-53": 1,
+        "23-40-53": 1,
+        "7-23-40": 1,
+        "22-40-45": 1
+      },
+      "games": [
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "5-6": {
+      "names": {
+        "3 Bautista": 1
+      },
+      "totals": {
+        "placementPoints": 8,
+        "knockoutPoints": 1,
+        "damagePoints": 2,
+        "damageRaw": 5586,
+        "powerRankPoints": 11
+      },
+      "characters": {
+        "29-40": 1
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-3"
+      ]
+    },
+    "17-18-51": {
+      "names": {
+        "Viltrum": 2
+      },
+      "totals": {
+        "placementPoints": 25,
+        "knockoutPoints": 10,
+        "damagePoints": 14,
+        "damageRaw": 29828,
+        "powerRankPoints": 49
+      },
+      "characters": {
+        "32-37-43": 1,
+        "32-37-50": 1
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "5-6a6ee8eb000632c82199-6a6ee8f600244547a9f7": {
+      "names": {
+        "3 Bautista": 2
+      },
+      "totals": {
+        "placementPoints": 9,
+        "knockoutPoints": 10,
+        "damagePoints": 10,
+        "damageRaw": 21682,
+        "powerRankPoints": 29
+      },
+      "characters": {
+        "13-27-37": 1,
+        "13-28-37": 1
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    }
+  },
+  "characters": {
+    "1": {
+      "players": {
+        "19": {
+          "names": {
+            "RuggedUma": 1
+          },
+          "totals": {
+            "placementPoints": 6,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 1880,
+            "powerRankPoints": 6
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 0,
+        "damagePoints": 0,
+        "damageRaw": 1880,
+        "powerRankPoints": 6
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-2"
+      ]
+    },
+    "3": {
+      "players": {
+        "15": {
+          "names": {
+            "?Report Me?": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 1,
+            "damagePoints": 0,
+            "damageRaw": 1475,
+            "powerRankPoints": 3
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 2,
+        "knockoutPoints": 1,
+        "damagePoints": 0,
+        "damageRaw": 1475,
+        "powerRankPoints": 3
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "6": {
+      "players": {
+        "16": {
+          "names": {
+            "Lethal Two": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 2,
+            "damagePoints": 2,
+            "damageRaw": 4286,
+            "powerRankPoints": 6
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        },
+        "20": {
+          "names": {
+            "-Alucard-": 1
+          },
+          "totals": {
+            "placementPoints": 1,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 641,
+            "powerRankPoints": 1
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1"
+          ],
+          "characters": {}
+        },
+        "22": {
+          "names": {
+            "-Alucard-": 1
+          },
+          "totals": {
+            "placementPoints": 1,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 641,
+            "powerRankPoints": 1
+          },
+          "games": [
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 4,
+        "knockoutPoints": 2,
+        "damagePoints": 2,
+        "damageRaw": 5568,
+        "powerRankPoints": 8
+      },
+      "games": [
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2"
+      ]
+    },
+    "7": {
+      "players": {
+        "20": {
+          "names": {
+            "-Alucard-": 1
+          },
+          "totals": {
+            "placementPoints": 3,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 140,
+            "powerRankPoints": 3
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        },
+        "22": {
+          "names": {
+            "-Alucard-": 1,
+            "Alucard": 2
+          },
+          "totals": {
+            "placementPoints": 3,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 1923,
+            "powerRankPoints": 3
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 0,
+        "damagePoints": 0,
+        "damageRaw": 2063,
+        "powerRankPoints": 6
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "8": {
+      "players": {
+        "3": {
+          "names": {
+            "Whos_luminth67": 4,
+            "Whos_liminth67": 4
+          },
+          "totals": {
+            "placementPoints": 106,
+            "knockoutPoints": 10,
+            "damagePoints": 8,
+            "damageRaw": 23062,
+            "powerRankPoints": 124
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4",
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "9": {
+          "names": {
+            "Devil Trigger": 1
+          },
+          "totals": {
+            "placementPoints": 10,
+            "knockoutPoints": 3,
+            "damagePoints": 1,
+            "damageRaw": 3965,
+            "powerRankPoints": 14
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        },
+        "14": {
+          "names": {
+            "Kayue": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 590,
+            "powerRankPoints": 2
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 118,
+        "knockoutPoints": 13,
+        "damagePoints": 9,
+        "damageRaw": 27617,
+        "powerRankPoints": 140
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "11": {
+      "players": {
+        "5": {
+          "names": {
+            "n1zo": 1
+          },
+          "totals": {
+            "placementPoints": 8,
+            "knockoutPoints": 0,
+            "damagePoints": 2,
+            "damageRaw": 5315,
+            "powerRankPoints": 10
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        },
+        "8": {
+          "names": {
+            "Rotty!": 1
+          },
+          "totals": {
+            "placementPoints": 10,
+            "knockoutPoints": 4,
+            "damagePoints": 2,
+            "damageRaw": 5080,
+            "powerRankPoints": 16
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 18,
+        "knockoutPoints": 4,
+        "damagePoints": 4,
+        "damageRaw": 10395,
+        "powerRankPoints": 26
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "13": {
+      "players": {
+        "4": {
+          "names": {
+            "argentino man": 6
+          },
+          "totals": {
+            "placementPoints": 58,
+            "knockoutPoints": 25,
+            "damagePoints": 24,
+            "damageRaw": 57634,
+            "powerRankPoints": 107
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4",
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        },
+        "5": {
+          "names": {
+            "n1zo": 2
+          },
+          "totals": {
+            "placementPoints": 9,
+            "knockoutPoints": 4,
+            "damagePoints": 3,
+            "damageRaw": 7518,
+            "powerRankPoints": 16
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 67,
+        "knockoutPoints": 29,
+        "damagePoints": 27,
+        "damageRaw": 65152,
+        "powerRankPoints": 123
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "15": {
+      "players": {
+        "12": {
+          "names": {
+            "HMM M3": 2
+          },
+          "totals": {
+            "placementPoints": 7,
+            "knockoutPoints": 0,
+            "damagePoints": 1,
+            "damageRaw": 4780,
+            "powerRankPoints": 8
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 7,
+        "knockoutPoints": 0,
+        "damagePoints": 1,
+        "damageRaw": 4780,
+        "powerRankPoints": 8
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "18": {
+      "players": {
+        "1": {
+          "names": {
+            "ScrompyRoko67": 2
+          },
+          "totals": {
+            "placementPoints": 23,
+            "knockoutPoints": 7,
+            "damagePoints": 5,
+            "damageRaw": 10936,
+            "powerRankPoints": 35
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "15": {
+          "names": {
+            "?Report Me?": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 1,
+            "damagePoints": 1,
+            "damageRaw": 2942,
+            "powerRankPoints": 4
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 25,
+        "knockoutPoints": 8,
+        "damagePoints": 6,
+        "damageRaw": 13878,
+        "powerRankPoints": 39
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "19": {
+      "players": {
+        "1": {
+          "names": {
+            "ScrompyRoko67": 7
+          },
+          "totals": {
+            "placementPoints": 93,
+            "knockoutPoints": 28,
+            "damagePoints": 17,
+            "damageRaw": 38826,
+            "powerRankPoints": 138
+          },
+          "games": [
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4",
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        },
+        "15": {
+          "names": {
+            "?Report Me?": 3
+          },
+          "totals": {
+            "placementPoints": 7,
+            "knockoutPoints": 0,
+            "damagePoints": 2,
+            "damageRaw": 6437,
+            "powerRankPoints": 9
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        },
+        "16": {
+          "names": {
+            "«¿?Report Me?¿»": 1,
+            "?Report Me?": 2,
+            "°¿?Report Me?¿°": 1
+          },
+          "totals": {
+            "placementPoints": 12,
+            "knockoutPoints": 0,
+            "damagePoints": 4,
+            "damageRaw": 9320,
+            "powerRankPoints": 16
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 112,
+        "knockoutPoints": 28,
+        "damagePoints": 23,
+        "damageRaw": 54583,
+        "powerRankPoints": 163
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "22": {
+      "players": {
+        "20": {
+          "names": {
+            "-Alucard-": 1
+          },
+          "totals": {
+            "placementPoints": 1,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 480,
+            "powerRankPoints": 1
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 1,
+        "knockoutPoints": 0,
+        "damagePoints": 0,
+        "damageRaw": 480,
+        "powerRankPoints": 1
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "23": {
+      "players": {
+        "19": {
+          "names": {
+            "RuggedUma": 2
+          },
+          "totals": {
+            "placementPoints": 13,
+            "knockoutPoints": 0,
+            "damagePoints": 3,
+            "damageRaw": 8113,
+            "powerRankPoints": 16
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 13,
+        "knockoutPoints": 0,
+        "damagePoints": 3,
+        "damageRaw": 8113,
+        "powerRankPoints": 16
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "27": {
+      "players": {
+        "16": {
+          "names": {
+            "Lethal Two": 1
+          },
+          "totals": {
+            "placementPoints": 1,
+            "knockoutPoints": 1,
+            "damagePoints": 1,
+            "damageRaw": 3864,
+            "powerRankPoints": 3
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        },
+        "6a6ee8f600244547a9f7": {
+          "names": {
+            "Arescook": 1
+          },
+          "totals": {
+            "placementPoints": 6,
+            "knockoutPoints": 6,
+            "damagePoints": 3,
+            "damageRaw": 7856,
+            "powerRankPoints": 15
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 7,
+        "knockoutPoints": 7,
+        "damagePoints": 4,
+        "damageRaw": 11720,
+        "powerRankPoints": 18
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "28": {
+      "players": {
+        "6a6ee8f600244547a9f7": {
+          "names": {
+            "Arescook": 1
+          },
+          "totals": {
+            "placementPoints": 3,
+            "knockoutPoints": 0,
+            "damagePoints": 1,
+            "damageRaw": 2008,
+            "powerRankPoints": 4
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 3,
+        "knockoutPoints": 0,
+        "damagePoints": 1,
+        "damageRaw": 2008,
+        "powerRankPoints": 4
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "29": {
+      "players": {
+        "5": {
+          "names": {
+            "n1zo": 1
+          },
+          "totals": {
+            "placementPoints": 8,
+            "knockoutPoints": 0,
+            "damagePoints": 1,
+            "damageRaw": 2815,
+            "powerRankPoints": 9
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        },
+        "8": {
+          "names": {
+            "Rotty!": 3
+          },
+          "totals": {
+            "placementPoints": 25,
+            "knockoutPoints": 7,
+            "damagePoints": 5,
+            "damageRaw": 13888,
+            "powerRankPoints": 37
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        },
+        "9": {
+          "names": {
+            "Rotty!": 4
+          },
+          "totals": {
+            "placementPoints": 32,
+            "knockoutPoints": 4,
+            "damagePoints": 8,
+            "damageRaw": 21000,
+            "powerRankPoints": 44
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 65,
+        "knockoutPoints": 11,
+        "damagePoints": 14,
+        "damageRaw": 37703,
+        "powerRankPoints": 90
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3"
+      ]
+    },
+    "30": {
+      "players": {
+        "8": {
+          "names": {
+            "Rotty!": 1
+          },
+          "totals": {
+            "placementPoints": 15,
+            "knockoutPoints": 9,
+            "damagePoints": 2,
+            "damageRaw": 5794,
+            "powerRankPoints": 26
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 15,
+        "knockoutPoints": 9,
+        "damagePoints": 2,
+        "damageRaw": 5794,
+        "powerRankPoints": 26
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "31": {
+      "players": {
+        "13": {
+          "names": {
+            "Gonkillu5": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 1575,
+            "powerRankPoints": 2
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 2,
+        "knockoutPoints": 0,
+        "damagePoints": 0,
+        "damageRaw": 1575,
+        "powerRankPoints": 2
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "32": {
+      "players": {
+        "7": {
+          "names": {
+            "WitheredFreddy": 1
+          },
+          "totals": {
+            "placementPoints": 8,
+            "knockoutPoints": 3,
+            "damagePoints": 3,
+            "damageRaw": 7265,
+            "powerRankPoints": 14
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1"
+          ],
+          "characters": {}
+        },
+        "8": {
+          "names": {
+            "WitheredFreddy": 4
+          },
+          "totals": {
+            "placementPoints": 32,
+            "knockoutPoints": 12,
+            "damagePoints": 12,
+            "damageRaw": 29060,
+            "powerRankPoints": 56
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "17": {
+          "names": {
+            "spooky": 3
+          },
+          "totals": {
+            "placementPoints": 26,
+            "knockoutPoints": 5,
+            "damagePoints": 6,
+            "damageRaw": 15430,
+            "powerRankPoints": 37
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 66,
+        "knockoutPoints": 20,
+        "damagePoints": 21,
+        "damageRaw": 51755,
+        "powerRankPoints": 107
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "34": {
+      "players": {
+        "3": {
+          "names": {
+            "Whos_liminth67": 1
+          },
+          "totals": {
+            "placementPoints": 10,
+            "knockoutPoints": 3,
+            "damagePoints": 1,
+            "damageRaw": 3038,
+            "powerRankPoints": 14
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 10,
+        "knockoutPoints": 3,
+        "damagePoints": 1,
+        "damageRaw": 3038,
+        "powerRankPoints": 14
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-2"
+      ]
+    },
+    "37": {
+      "players": {
+        "6": {
+          "names": {
+            "Aresbuc": 2
+          },
+          "totals": {
+            "placementPoints": 18,
+            "knockoutPoints": 2,
+            "damagePoints": 3,
+            "damageRaw": 7520,
+            "powerRankPoints": 23
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        },
+        "7": {
+          "names": {
+            "Aresbuc": 4
+          },
+          "totals": {
+            "placementPoints": 40,
+            "knockoutPoints": 8,
+            "damagePoints": 4,
+            "damageRaw": 13180,
+            "powerRankPoints": 52
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "9": {
+          "names": {
+            "Devil Trigger": 2
+          },
+          "totals": {
+            "placementPoints": 23,
+            "knockoutPoints": 3,
+            "damagePoints": 2,
+            "damageRaw": 7384,
+            "powerRankPoints": 28
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        },
+        "10": {
+          "names": {
+            "Devil Trigger": 4
+          },
+          "totals": {
+            "placementPoints": 32,
+            "knockoutPoints": 4,
+            "damagePoints": 4,
+            "damageRaw": 13660,
+            "powerRankPoints": 40
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "11": {
+          "names": {
+            "Nagants toilet": 5
+          },
+          "totals": {
+            "placementPoints": 22,
+            "knockoutPoints": 2,
+            "damagePoints": 3,
+            "damageRaw": 12638,
+            "powerRankPoints": 27
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "12": {
+          "names": {
+            "Nagants toilet": 4
+          },
+          "totals": {
+            "placementPoints": 24,
+            "knockoutPoints": 0,
+            "damagePoints": 4,
+            "damageRaw": 13224,
+            "powerRankPoints": 28
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "18": {
+          "names": {
+            "Kawaii": 4
+          },
+          "totals": {
+            "placementPoints": 29,
+            "knockoutPoints": 2,
+            "damagePoints": 3,
+            "damageRaw": 9349,
+            "powerRankPoints": 34
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "19": {
+          "names": {
+            "Kawaii": 4
+          },
+          "totals": {
+            "placementPoints": 8,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 6360,
+            "powerRankPoints": 8
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "6a6ee8eb000632c82199": {
+          "names": {
+            "ghechis": 2
+          },
+          "totals": {
+            "placementPoints": 9,
+            "knockoutPoints": 0,
+            "damagePoints": 1,
+            "damageRaw": 4300,
+            "powerRankPoints": 10
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 205,
+        "knockoutPoints": 21,
+        "damagePoints": 24,
+        "damageRaw": 87615,
+        "powerRankPoints": 250
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "39": {
+      "players": {
+        "21": {
+          "names": {
+            "Harshira": 1
+          },
+          "totals": {
+            "placementPoints": 6,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 1815,
+            "powerRankPoints": 6
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 0,
+        "damagePoints": 0,
+        "damageRaw": 1815,
+        "powerRankPoints": 6
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-2"
+      ]
+    },
+    "40": {
+      "players": {
+        "2": {
+          "names": {
+            "KING_67": 9
+          },
+          "totals": {
+            "placementPoints": 116,
+            "knockoutPoints": 15,
+            "damagePoints": 17,
+            "damageRaw": 39749,
+            "powerRankPoints": 148
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4",
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "5": {
+          "names": {
+            "n1zo": 1
+          },
+          "totals": {
+            "placementPoints": 10,
+            "knockoutPoints": 0,
+            "damagePoints": 2,
+            "damageRaw": 4494,
+            "powerRankPoints": 12
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1"
+          ],
+          "characters": {}
+        },
+        "6": {
+          "names": {
+            "n1zo": 4,
+            "Aresbuc": 1
+          },
+          "totals": {
+            "placementPoints": 48,
+            "knockoutPoints": 1,
+            "damagePoints": 9,
+            "damageRaw": 20747,
+            "powerRankPoints": 58
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4",
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        },
+        "17": {
+          "names": {
+            "spooky": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 1,
+            "damagePoints": 1,
+            "damageRaw": 2123,
+            "powerRankPoints": 4
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2"
+          ],
+          "characters": {}
+        },
+        "18": {
+          "names": {
+            "Kawaii": 1
+          },
+          "totals": {
+            "placementPoints": 1,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 1140,
+            "powerRankPoints": 1
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        },
+        "21": {
+          "names": {
+            "Hāshīra": 1,
+            "Hashira": 2,
+            "Hāšhîra": 1,
+            "Harshira": 4
+          },
+          "totals": {
+            "placementPoints": 19,
+            "knockoutPoints": 9,
+            "damagePoints": 5,
+            "damageRaw": 21134,
+            "powerRankPoints": 33
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4",
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 196,
+        "knockoutPoints": 26,
+        "damagePoints": 34,
+        "damageRaw": 89387,
+        "powerRankPoints": 256
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "42": {
+      "players": {
+        "13": {
+          "names": {
+            "Gonkillu5": 3
+          },
+          "totals": {
+            "placementPoints": 6,
+            "knockoutPoints": 0,
+            "damagePoints": 3,
+            "damageRaw": 8941,
+            "powerRankPoints": 9
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        },
+        "14": {
+          "names": {
+            "Gonkillu5": 4
+          },
+          "totals": {
+            "placementPoints": 12,
+            "knockoutPoints": 0,
+            "damagePoints": 8,
+            "damageRaw": 19688,
+            "powerRankPoints": 20
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "16": {
+          "names": {
+            "Lethal Two": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 0,
+            "damagePoints": 1,
+            "damageRaw": 2727,
+            "powerRankPoints": 3
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1"
+          ],
+          "characters": {}
+        },
+        "17": {
+          "names": {
+            "E | Lethal Two": 4
+          },
+          "totals": {
+            "placementPoints": 8,
+            "knockoutPoints": 0,
+            "damagePoints": 4,
+            "damageRaw": 10908,
+            "powerRankPoints": 12
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 28,
+        "knockoutPoints": 0,
+        "damagePoints": 16,
+        "damageRaw": 42264,
+        "powerRankPoints": 44
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "43": {
+      "players": {
+        "13": {
+          "names": {
+            "Gonkillu5": 1
+          },
+          "totals": {
+            "placementPoints": 3,
+            "knockoutPoints": 1,
+            "damagePoints": 1,
+            "damageRaw": 2317,
+            "powerRankPoints": 5
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        },
+        "51": {
+          "names": {
+            "Spongi": 1
+          },
+          "totals": {
+            "placementPoints": 15,
+            "knockoutPoints": 4,
+            "damagePoints": 3,
+            "damageRaw": 6520,
+            "powerRankPoints": 22
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 18,
+        "knockoutPoints": 5,
+        "damagePoints": 4,
+        "damageRaw": 8837,
+        "powerRankPoints": 27
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    },
+    "45": {
+      "players": {
+        "7": {
+          "names": {
+            "WitheredFreddy": 2
+          },
+          "totals": {
+            "placementPoints": 30,
+            "knockoutPoints": 7,
+            "damagePoints": 6,
+            "damageRaw": 13778,
+            "powerRankPoints": 43
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "12": {
+          "names": {
+            "HMM M3": 3
+          },
+          "totals": {
+            "placementPoints": 15,
+            "knockoutPoints": 0,
+            "damagePoints": 2,
+            "damageRaw": 8701,
+            "powerRankPoints": 17
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "13": {
+          "names": {
+            "HMM M3": 3
+          },
+          "totals": {
+            "placementPoints": 18,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 5214,
+            "powerRankPoints": 18
+          },
+          "games": [
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "14": {
+          "names": {
+            "Kayue": 4
+          },
+          "totals": {
+            "placementPoints": 9,
+            "knockoutPoints": 0,
+            "damagePoints": 2,
+            "damageRaw": 10918,
+            "powerRankPoints": 11
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "15": {
+          "names": {
+            "Ж Kayue": 2,
+            "Kayue": 2
+          },
+          "totals": {
+            "placementPoints": 12,
+            "knockoutPoints": 0,
+            "damagePoints": 4,
+            "damageRaw": 14212,
+            "powerRankPoints": 16
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "17": {
+          "names": {
+            "spooky": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 1686,
+            "powerRankPoints": 2
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1"
+          ],
+          "characters": {}
+        },
+        "18": {
+          "names": {
+            "K--×spooky": 1,
+            "spooky": 2,
+            "K-×spooky": 1
+          },
+          "totals": {
+            "placementPoints": 8,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 6744,
+            "powerRankPoints": 8
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        },
+        "19": {
+          "names": {
+            "RuggedUma": 2
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 0,
+            "damagePoints": 1,
+            "damageRaw": 3388,
+            "powerRankPoints": 3
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "20": {
+          "names": {
+            "RuggedUma": 4
+          },
+          "totals": {
+            "placementPoints": 4,
+            "knockoutPoints": 0,
+            "damagePoints": 4,
+            "damageRaw": 9336,
+            "powerRankPoints": 8
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 100,
+        "knockoutPoints": 7,
+        "damagePoints": 19,
+        "damageRaw": 73977,
+        "powerRankPoints": 126
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "47": {
+      "players": {
+        "7": {
+          "names": {
+            "WitheredFreddy": 1
+          },
+          "totals": {
+            "placementPoints": 2,
+            "knockoutPoints": 2,
+            "damagePoints": 2,
+            "damageRaw": 5495,
+            "powerRankPoints": 6
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 2,
+        "knockoutPoints": 2,
+        "damagePoints": 2,
+        "damageRaw": 5495,
+        "powerRankPoints": 6
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-3"
+      ]
+    },
+    "50": {
+      "players": {
+        "9": {
+          "names": {
+            "Devil Trigger": 2
+          },
+          "totals": {
+            "placementPoints": 17,
+            "knockoutPoints": 4,
+            "damagePoints": 3,
+            "damageRaw": 6702,
+            "powerRankPoints": 24
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "51": {
+          "names": {
+            "Spongi": 1
+          },
+          "totals": {
+            "placementPoints": 10,
+            "knockoutPoints": 1,
+            "damagePoints": 2,
+            "damageRaw": 4027,
+            "powerRankPoints": 13
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 27,
+        "knockoutPoints": 5,
+        "damagePoints": 5,
+        "damageRaw": 10729,
+        "powerRankPoints": 37
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "51": {
+      "players": {
+        "13": {
+          "names": {
+            "HMM M3": 1
+          },
+          "totals": {
+            "placementPoints": 6,
+            "knockoutPoints": 0,
+            "damagePoints": 0,
+            "damageRaw": 1738,
+            "powerRankPoints": 6
+          },
+          "games": [
+            "season-1/na/event-1/game-1"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 0,
+        "damagePoints": 0,
+        "damageRaw": 1738,
+        "powerRankPoints": 6
+      },
+      "games": [
+        "season-1/na/event-1/game-1"
+      ]
+    },
+    "53": {
+      "players": {
+        "20": {
+          "names": {
+            "-Alucard-": 2
+          },
+          "totals": {
+            "placementPoints": 16,
+            "knockoutPoints": 0,
+            "damagePoints": 3,
+            "damageRaw": 8085,
+            "powerRankPoints": 19
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 16,
+        "knockoutPoints": 0,
+        "damagePoints": 3,
+        "damageRaw": 8085,
+        "powerRankPoints": 19
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3"
+      ]
+    },
+    "57": {
+      "players": {
+        "10": {
+          "names": {
+            "P E devil": 5
+          },
+          "totals": {
+            "placementPoints": 22,
+            "knockoutPoints": 11,
+            "damagePoints": 10,
+            "damageRaw": 23660,
+            "powerRankPoints": 43
+          },
+          "games": [
+            "season-1/na/purl-open-1/game-1",
+            "s1-purl-preseason-open-1-game-2",
+            "s1-purl-preseason-open-1-game-3",
+            "s1-purl-preseason-open-1-game-4",
+            "s1-purl-preseason-open-1-game-5"
+          ],
+          "characters": {}
+        },
+        "11": {
+          "names": {
+            "P E devil": 3,
+            "P ∑ devil": 1
+          },
+          "totals": {
+            "placementPoints": 24,
+            "knockoutPoints": 12,
+            "damagePoints": 8,
+            "damageRaw": 20660,
+            "powerRankPoints": 44
+          },
+          "games": [
+            "season-1/na/event-1/game-1",
+            "season-1/na/event-1/game-2",
+            "season-1/na/event-1/game-3",
+            "season-1/na/event-1/game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 46,
+        "knockoutPoints": 23,
+        "damagePoints": 18,
+        "damageRaw": 44320,
+        "powerRankPoints": 87
+      },
+      "games": [
+        "season-1/na/event-1/game-1",
+        "season-1/na/event-1/game-2",
+        "season-1/na/event-1/game-3",
+        "season-1/na/event-1/game-4",
+        "season-1/na/purl-open-1/game-1",
+        "s1-purl-preseason-open-1-game-2",
+        "s1-purl-preseason-open-1-game-3",
+        "s1-purl-preseason-open-1-game-4",
+        "s1-purl-preseason-open-1-game-5"
+      ]
+    },
+    "59": {
+      "players": {
+        "7": {
+          "names": {
+            "WitheredFreddy": 1
+          },
+          "totals": {
+            "placementPoints": 10,
+            "knockoutPoints": 4,
+            "damagePoints": 4,
+            "damageRaw": 8102,
+            "powerRankPoints": 18
+          },
+          "games": [
+            "s1-purl-preseason-open-1-game-4"
+          ],
+          "characters": {}
+        }
+      },
+      "totals": {
+        "placementPoints": 10,
+        "knockoutPoints": 4,
+        "damagePoints": 4,
+        "damageRaw": 8102,
+        "powerRankPoints": 18
+      },
+      "games": [
+        "s1-purl-preseason-open-1-game-4"
+      ]
+    }
+  }
+}
