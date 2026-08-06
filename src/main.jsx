@@ -7,7 +7,7 @@ import {
 
 import { RootLayout } from "./RootLayout";
 import { AdminGuard } from "./AdminGuard.jsx";
-
+import AuthGuard from "./AuthGuard.jsx"
 import Loading from "./pages/Loading.jsx";
 import NoMatch from "./pages/NoMatch.jsx";
 
@@ -20,13 +20,14 @@ import FAQs from "./pages/FAQs.jsx";
 import Leaderboard from "./pages/Leaderboard.jsx";
 import Success from "./pages/Success.jsx";
 import Games from "./pages/Games.jsx";
-import PlayerDetails from "./pages/PlayerDetails.jsx";
-import TeamDetails from "./pages/TeamDetails.jsx";
-import CharacterDetails from "./pages/CharacterDetails.jsx";
 
 import Players from "./pages/Players.jsx";
 import Teams from "./pages/Teams.jsx";
 import Characters from "./pages/Characters.jsx";
+
+import Player from "./pages/Player.jsx";
+import Team from "./pages/Team.jsx";
+import Character from "./pages/Character.jsx";
 
 import RegisteredPlayers from "./pages/RegisteredPlayers.jsx";
 import Profile from "./pages/Profile.jsx";
@@ -43,7 +44,6 @@ import { useEvent } from "./context/EventContext.jsx";
 import { useTheme } from "./context/ThemeContext.jsx";
 import { usePlayer } from "./context/PlayerContext.jsx";
 
-import AuthGuard from "./AuthGuard.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -82,7 +82,18 @@ const router = createBrowserRouter([
         path:"characters/*",
         element:<Characters/>
       },
-      { path: "all/:season?/:region?/:event?/:game?", element: <Games /> },
+       {
+        path:"player/:playerId/*",
+        element:<Player standalone={true} forceExpanded={true}/>
+      },
+      {
+        path:"team/:teamId/*",
+        element: <Team/>
+      },
+      {
+        path:"character/:characterId/*",
+        element: <Character />
+      },
       { path: "faqs", element: <FAQs /> },
       { path: "privacy", element: <Privacy /> },
       { path: "rules", element: <Rules /> },

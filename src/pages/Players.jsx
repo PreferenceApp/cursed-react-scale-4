@@ -1,134 +1,269 @@
-import React, { useMemo } from "react";
-import { useParams, Link } from "react-router-dom";
-import { useData } from "../context/DataContext.jsx";
-import { getNavigationMeta } from "../helpers/PathHelper.js";
+import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
+import { useData } from "../context/DataContext";
+import Player from "./Player.jsx";
 
-const Players = ({ limit, dashboardMode = false }) => {
-  const { getLeaderboard, loading, games } = useData();
-  const params = useParams();
-  const splatPath = params["*"] || ""; 
+export default function Players() {
+    const { getPlayers, loading, error } = useData();
+    const location = useLocation();
+    const [players, setPlayers] = useState([]);
+    const [expandedPlayers, setExpandedPlayers] = useState([]);
 
-  const currentScope = useMemo(() => {
-    if (!splatPath || splatPath === "all") return "/";
-    return splatPath.startsWith("/") ? splatPath : `/${splatPath}`;
-  }, [splatPath]);
+    useEffect(() => {
+        async function load() {
+            const path = location.pathname.replace(/^\/players\/?/, "");
+            const data = await getPlayers(path);
+            setPlayers(data || []);
+        }
+        load();
+    }, [location.pathname, getPlayers]);
 
-  const { breadcrumbs, nextPotentialFolders } = useMemo(() => {
-    if (loading || dashboardMode) return { breadcrumbs: [], nextPotentialFolders: [] };
-    return getNavigationMeta(currentScope, games, "players");
-  }, [currentScope, games, loading, dashboardMode]);
+    const togglePlayer = (id) => {
+        setExpandedPlayers((prev) =>
+            prev.includes(id) 
+                ? prev.filter((playerId) => playerId !== id) 
+                : [...prev, id]
+        );
+    };
 
-  const sortedPlayers = useMemo(() => {
-    if (loading) return [];
-    const contextPath = currentScope === "/" ? "/all" : `/all${currentScope}`;
-    const allPlayers = getLeaderboard("players", contextPath) || [];
-    const sorted = [...allPlayers].sort((a, b) => b.averagePower - a.averagePower);
-    return limit ? sorted.slice(0, limit) : sorted;
-  }, [getLeaderboard, loading, currentScope, limit]);
+    if (loading) return <h2 style={styles.message}>Loading dashboard...</h2>;
+    if (error) return <h2 style={{...styles.message, color: "var(--danger-text)"}}>{error}</h2>;
 
-  // Helper to extract the item with the highest frequency count
-  const getMostFrequent = (recordObj = {}, fallback = "N/A") => {
-    const entries = Object.entries(recordObj);
-    if (entries.length === 0) return fallback;
-    return entries.sort((a, b) => b[1] - a[1])[0][0];
-  };
-
-  if (loading) return <div style={{ padding: "20px", fontFamily: "sans-serif" }}>Loading players...</div>;
-
-  return (
-    <div style={dashboardMode ? {} : { padding: "20px", fontFamily: "sans-serif", maxWidth: "1200px", margin: "0 auto" }}>
-      
-      {!dashboardMode && (
-        <>
-          <nav aria-label="Breadcrumb" style={{ marginBottom: "15px", fontSize: "14px", color: "#666" }}>
-            <Link to="/players" style={{ textDecoration: "none", color: "#0066cc" }}>Players</Link>
-            {breadcrumbs.map((crumb, idx) => (
-              <span key={crumb.url}>
-                {" / "}
-                {idx === breadcrumbs.length - 1 ? (
-                  <strong style={{ color: "#333" }}>{crumb.name}</strong>
-                ) : (
-                  <Link to={crumb.url} style={{ textDecoration: "none", color: "#0066cc" }}>{crumb.name}</Link>
-                )}
-              </span>
-            ))}
-          </nav>
-
-          {nextPotentialFolders.length > 0 && (
-            <div style={{ background: "#f5f5f5", padding: "12px", marginBottom: "25px", borderRadius: "6px", border: "1px solid #e0e0e0" }}>
-              <small style={{ color: "#666", display: "block", marginBottom: "8px", fontWeight: "bold" }}>Filter players deeper into this scope:</small>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                {nextPotentialFolders.map((folder) => (
-                  <Link key={folder} to={`/players${currentScope === "/" ? "" : currentScope}/${folder}`} style={{ background: "#ffffff", padding: "6px 12px", border: "1px solid #ccc", borderRadius: "20px", textDecoration: "none", color: "#333", fontSize: "13px", fontWeight: "500" }}>
-                    {folder} →
-                  </Link>
-                ))}
-              </div>
+    return (
+        <div style={styles.container}>
+            <div style={styles.headerRow}>
+                <h1 style={styles.title}>Leaderboard & Player Profiles</h1>
+                <span style={styles.subtitle}>{players.length} Competitors Tracked</span>
             </div>
-          )}
 
-          <h1 style={{ borderBottom: "2px solid #eee", paddingBottom: "10px", marginTop: "0" }}>
-            Players <span style={{ fontSize: "16px", color: "#666", fontWeight: "normal" }}>({currentScope === "/" ? "/all" : currentScope})</span>
-          </h1>
-        </>
-      )}
-
-      <section style={{ overflowX: "auto" }}>
-        {sortedPlayers.length === 0 ? (
-          <p style={{ color: "#888", fontStyle: "italic" }}>No player entries available.</p>
-        ) : (
-          <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left", fontSize: "14px" }}>
-            <thead>
-              <tr style={{ borderBottom: "2px solid #ddd", background: "#f9f9f9" }}>
-                <th style={{ padding: "12px 8px" }}>Rank</th>
-                <th style={{ padding: "12px 8px" }}>Player</th>
-                <th style={{ padding: "12px 8px" }}>Fav Character</th>
-                <th style={{ padding: "12px 8px", textAlign: "right" }}>Avg Power</th>
-                <th style={{ padding: "12px 8px", textAlign: "right" }}>PR Points</th>
-                <th style={{ padding: "12px 8px", textAlign: "right" }}>Placements</th>
-                <th style={{ padding: "12px 8px", textAlign: "right" }}>KOs</th>
-                <th style={{ padding: "12px 8px", textAlign: "right" }}>Damage (Pts)</th>
-                <th style={{ padding: "12px 8px", textAlign: "right" }}>Raw Damage</th>
-                <th style={{ padding: "12px 8px", textAlign: "right" }}>Games</th>
-              </tr>
-            </thead>
-            <tbody>
-              {sortedPlayers.map((player, index) => (
-                <tr key={player.id} style={{ borderBottom: "1px solid #eee", background: index % 2 === 0 ? "#ffffff" : "#fcfcfc" }}>
-                  {/* Rank */}
-                  <td style={{ padding: "12px 8px" }}><strong>#{index + 1}</strong></td>
-                  
-                  {/* Player Identity */}
-                  <td style={{ padding: "12px 8px" }}>
-                    <span style={{ color: "#0066cc", fontWeight: "600", display: "block" }}>
-                      {getMostFrequent(player.names, player.id)}
-                    </span>
-                    {!dashboardMode && <small style={{ color: "#888", fontSize: "11px" }}>Discord: {player.id}</small>}
-                  </td>
-
-                  {/* Character Allocation */}
-                  <td style={{ padding: "12px 8px" }}>
-                    <span style={{ textTransform: "capitalize", background: "#eee", padding: "2px 6px", borderRadius: "4px", fontSize: "12px" }}>
-                      {getMostFrequent(player.characters, "None")}
-                    </span>
-                  </td>
-
-                  {/* Metrics & Totals */}
-                  <td style={{ padding: "12px 8px", textAlign: "right", fontWeight: "bold" }}>{player.averagePower.toFixed(2)}</td>
-                  <td style={{ padding: "12px 8px", textAlign: "right", color: "#2e7d32", fontWeight: "600" }}>{player.totals?.powerRankPoints || 0}</td>
-                  <td style={{ padding: "12px 8px", textAlign: "right" }}>{player.totals?.placementPoints || 0}</td>
-                  <td style={{ padding: "12px 8px", textAlign: "right" }}>{player.totals?.knockoutPoints || 0}</td>
-                  <td style={{ padding: "12px 8px", textAlign: "right" }}>{player.totals?.damagePoints || 0}</td>
-                  <td style={{ padding: "12px 8px", textAlign: "right", color: "#666" }}>{player.totals?.damageRaw?.toLocaleString() || 0}</td>
-                  <td style={{ padding: "12px 8px", textAlign: "right", color: "#555" }}>{player.games?.length || 0}</td>
-                </tr>
+            <div style={styles.list}>
+              {players.map((player) => (
+                  <Player 
+                      key={player.id} 
+                      initialPlayer={player} 
+                      forceExpanded={expandedPlayers.includes(player.id)}
+                      onToggle={togglePlayer}
+                  />
               ))}
-            </tbody>
-          </table>
-        )}
-      </section>
-    </div>
-  );
-};
+          </div>
+        </div>
+    );
+}
 
-export default Players;
+// Scoped layout styles mapping perfectly to your index.css color schema variables
+const styles = {
+    container: {
+        maxWidth: "1100px",
+        margin: "0 auto",
+        padding: "2rem 1.5rem",
+    },
+    headerRow: {
+        display: "flex",
+        justifyContent: "space-between", // Fixed "between" to "space-between"
+        alignItems: "flex-end",
+        flexWrap: "wrap",
+        gap: "10px",
+        marginBottom: "2rem",
+        borderBottom: "2px solid var(--border-color)",
+        paddingBottom: "1rem",
+    },
+    title: {
+        fontSize: "2rem",
+        fontWeight: "800",
+        margin: 0,
+        color: "var(--text-color)",
+    },
+    subtitle: {
+        color: "var(--muted-color)",
+        fontSize: "0.95rem",
+        fontWeight: "500",
+        marginLeft: "auto",
+    },
+    message: {
+        textAlign: "center",
+        padding: "4rem 2rem",
+        color: "var(--muted-color)",
+    },
+    list: {
+        display: "flex",
+        flexDirection: "column",
+    },
+    card: {
+        backgroundColor: "var(--surface-color)",
+        border: "1px solid var(--border-color)",
+        borderRadius: "12px",
+        boxShadow: "0 4px 12px var(--shadow-color)",
+        overflow: "hidden",
+        transition: "transform 0.15s ease",
+    },
+    cardHeader: {
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "1.25rem 1.5rem",
+        cursor: "pointer",
+        userSelect: "none",
+    },
+    headerLeft: {
+        display: "flex",
+        alignItems: "center",
+        gap: "1rem",
+    },
+    rankBadge: {
+        backgroundColor: "var(--secondary)",
+        color: "#222222",
+        fontWeight: "800",
+        padding: "6px 12px",
+        borderRadius: "8px",
+        fontSize: "1.1rem",
+    },
+    playerName: {
+        fontSize: "1.25rem",
+        fontWeight: "700",
+        margin: 0,
+        color: "var(--text-color)",
+    },
+    discordId: {
+        fontSize: "0.8rem",
+        color: "var(--muted-color)",
+    },
+    headerRight: {
+        display: "flex",
+        alignItems: "center",
+        gap: "2rem",
+    },
+    statMini: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-end",
+    },
+    statMiniLabel: {
+        fontSize: "0.7rem",
+        fontWeight: "700",
+        color: "var(--muted-color)",
+        letterSpacing: "0.5px",
+    },
+    statMiniValue: {
+        fontSize: "1.3rem",
+        fontWeight: "800",
+        color: "var(--primary)",
+    },
+    arrow: {
+        color: "var(--muted-color)",
+        fontSize: "0.85rem",
+        width: "20px",
+        textAlign: "center",
+    },
+    cardContent: {
+        padding: "0 1.5rem 1.5rem 1.5rem",
+    },
+    divider: {
+        margin: "0 0 1.5rem 0",
+        border: "none",
+        borderTop: "1px solid var(--border-color)",
+    },
+    statsGrid: {
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+        gap: "2rem",
+        marginBottom: "2rem",
+    },
+    gridSection: {
+        display: "flex",
+        flexDirection: "column",
+        gap: "0.5rem",
+    },
+    sectionTitle: {
+        fontSize: "0.95rem",
+        fontWeight: "700",
+        margin: "0 0 0.5rem 0",
+        color: "var(--text-color)",
+        textTransform: "uppercase",
+        letterSpacing: "0.5px",
+    },
+    statRow: {
+        display: "flex",
+        justifyContent: "space-between",
+        padding: "8px 12px",
+        backgroundColor: "var(--bg-color)",
+        borderRadius: "6px",
+        fontSize: "0.9rem",
+    },
+    characterBadge: {
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "8px 12px",
+        border: "1px solid var(--border-color)",
+        borderRadius: "8px",
+        fontSize: "0.9rem",
+        backgroundColor: "var(--surface-color)",
+    },
+    characterName: {
+        fontWeight: "600",
+        color: "var(--text-color)",
+    },
+    characterCount: {
+        fontSize: "0.8rem",
+        color: "var(--muted-color)",
+        backgroundColor: "var(--bg-color)",
+        padding: "2px 8px",
+        borderRadius: "4px",
+    },
+    emptyText: {
+        fontSize: "0.85rem",
+        color: "var(--muted-color)",
+        fontStyle: "italic",
+    },
+    treeSection: {
+        backgroundColor: "var(--bg-color)",
+        padding: "1.25rem",
+        borderRadius: "10px",
+        border: "1px solid var(--border-color)",
+    },
+    seasonBlock: {
+        marginBottom: "1rem",
+    },
+    seasonTitle: {
+        fontSize: "0.85rem",
+        fontWeight: "800",
+        color: "var(--muted-color)",
+        marginBottom: "0.5rem",
+    },
+    regionBlock: {
+        display: "flex",
+        flexDirection: "column",
+        gap: "0.5rem",
+        paddingLeft: "0.5rem",
+        borderLeft: "2px solid var(--primary)",
+    },
+    regionBadge: {
+        fontSize: "0.75rem",
+        fontWeight: "700",
+        color: "var(--primary)",
+        alignSelf: "flex-start",
+    },
+    eventGrid: {
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+        gap: "0.5rem",
+    },
+    eventCard: {
+        backgroundColor: "var(--surface-color)",
+        border: "1px solid var(--border-color)",
+        padding: "8px 12px",
+        borderRadius: "6px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        fontSize: "0.85rem",
+    },
+    eventName: {
+        textTransform: "capitalize",
+        color: "var(--text-color)",
+    },
+    eventCount: {
+        color: "var(--muted-color)",
+        fontWeight: "600",
+    },
+};

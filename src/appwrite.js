@@ -3,7 +3,7 @@ import { Client, TablesDB, Account, Functions, OAuthProvider, ID, Query, Permiss
 const client = new Client();
 client
     .setEndpoint('https://nyc.cloud.appwrite.io/v1') // Your API Endpoint
-    .setProject('cursedclash'); // Your project ID
+    .setProject('cursedclas'); // Your project ID
     
 export { OAuthProvider, ID, Query, Permission, Role }; 
 
