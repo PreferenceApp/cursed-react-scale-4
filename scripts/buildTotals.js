@@ -204,6 +204,15 @@ async function exists(file) {
 
 async function buildFolder(folder) {
 
+    const folderName = path.basename(folder);
+
+    // EXCLUSION CHECK: Skip this folder entirely if it matches your rule
+    // Example rule: Ignore folders starting with "unranked" or "ignore"
+    if (folderName.startsWith("unranked")) {
+        console.log(`Skipping excluded folder: ${folder}`);
+        return emptyTotals(); // Return empty totals so it doesn't break parent merges
+    }
+
     const entries = await fs.readdir(
         folder,
         {
