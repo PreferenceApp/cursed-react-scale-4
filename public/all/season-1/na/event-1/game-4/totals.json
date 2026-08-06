@@ -12,7 +12,7 @@
         "powerRankPoints": 8
       },
       "characters": {
-        "18": 1
+        "19": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -102,7 +102,7 @@
         "powerRankPoints": 16
       },
       "characters": {
-        "12": 1
+        "11": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -218,7 +218,7 @@
     },
     "16": {
       "names": {
-        "°¿?Report Me?°": 1
+        "¿?Report Me¿?": 1
       },
       "totals": {
         "placementPoints": 2,
@@ -228,7 +228,7 @@
         "powerRankPoints": 3
       },
       "characters": {
-        "4": 1
+        "3": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -282,7 +282,7 @@
         "powerRankPoints": 4
       },
       "characters": {
-        "22": 1
+        "23": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -290,7 +290,7 @@
     },
     "21": {
       "names": {
-        "Hāšhira": 1
+        "Hāshira": 1
       },
       "totals": {
         "placementPoints": 3,
@@ -318,7 +318,61 @@
         "powerRankPoints": 3
       },
       "characters": {
-        "7": 1
+        "6": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "23": {
+      "names": {
+        "Ξ! Spongi": 1
+      },
+      "totals": {
+        "placementPoints": 15,
+        "knockoutPoints": 4,
+        "damagePoints": 3,
+        "damageRaw": 6520,
+        "powerRankPoints": 22
+      },
+      "characters": {
+        "43": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "24": {
+      "names": {
+        "Arescook": 1
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 6,
+        "damagePoints": 3,
+        "damageRaw": 7856,
+        "powerRankPoints": 15
+      },
+      "characters": {
+        "28": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "25": {
+      "names": {
+        "zghechis": 1
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 0,
+        "damagePoints": 1,
+        "damageRaw": 3517,
+        "powerRankPoints": 7
+      },
+      "characters": {
+        "37": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -326,6 +380,24 @@
     }
   },
   "teams": {
+    "18-19-23": {
+      "names": {
+        "Viltrum": 1
+      },
+      "totals": {
+        "placementPoints": 15,
+        "knockoutPoints": 8,
+        "damagePoints": 7,
+        "damageRaw": 15128,
+        "powerRankPoints": 30
+      },
+      "characters": {
+        "32-37-43": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-4"
+      ]
+    },
     "8-9-10": {
       "names": {
         "Team GG": 1
@@ -338,7 +410,7 @@
         "powerRankPoints": 29
       },
       "characters": {
-        "8-12-59": 1
+        "8-11-59": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -356,7 +428,25 @@
         "powerRankPoints": 12
       },
       "characters": {
-        "8-18-40": 1
+        "8-19-40": 1
+      },
+      "games": [
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "6-24-25": {
+      "names": {
+        "3 Bautista": 1
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 8,
+        "damagePoints": 8,
+        "damageRaw": 16406,
+        "powerRankPoints": 22
+      },
+      "characters": {
+        "13-28-37": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -374,7 +464,7 @@
         "powerRankPoints": 8
       },
       "characters": {
-        "7-22-40": 1
+        "6-23-40": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -392,7 +482,7 @@
         "powerRankPoints": 5
       },
       "characters": {
-        "4-8-42": 1
+        "3-8-42": 1
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -418,11 +508,11 @@
     }
   },
   "characters": {
-    "4": {
+    "3": {
       "players": {
         "16": {
           "names": {
-            "°¿?Report Me?°": 1
+            "¿?Report Me¿?": 1
           },
           "totals": {
             "placementPoints": 2,
@@ -447,7 +537,7 @@
         "season-1/na/event-1/game-4"
       ]
     },
-    "7": {
+    "6": {
       "players": {
         "22": {
           "names": {
@@ -535,7 +625,7 @@
         "season-1/na/event-1/game-4"
       ]
     },
-    "12": {
+    "11": {
       "players": {
         "9": {
           "names": {
@@ -622,7 +712,7 @@
         "season-1/na/event-1/game-4"
       ]
     },
-    "18": {
+    "19": {
       "players": {
         "1": {
           "names": {
@@ -651,7 +741,7 @@
         "season-1/na/event-1/game-4"
       ]
     },
-    "22": {
+    "23": {
       "players": {
         "20": {
           "names": {
@@ -675,6 +765,35 @@
         "damagePoints": 1,
         "damageRaw": 2657,
         "powerRankPoints": 4
+      },
+      "games": [
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "28": {
+      "players": {
+        "24": {
+          "names": {
+            "Arescook": 1
+          },
+          "totals": {
+            "placementPoints": 6,
+            "knockoutPoints": 6,
+            "damagePoints": 3,
+            "damageRaw": 7856,
+            "powerRankPoints": 15
+          },
+          "games": [
+            "season-1/na/event-1/game-4"
+          ]
+        }
+      },
+      "totals": {
+        "placementPoints": 6,
+        "knockoutPoints": 6,
+        "damagePoints": 3,
+        "damageRaw": 7856,
+        "powerRankPoints": 15
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -740,14 +859,29 @@
           "games": [
             "season-1/na/event-1/game-4"
           ]
+        },
+        "25": {
+          "names": {
+            "zghechis": 1
+          },
+          "totals": {
+            "placementPoints": 6,
+            "knockoutPoints": 0,
+            "damagePoints": 1,
+            "damageRaw": 3517,
+            "powerRankPoints": 7
+          },
+          "games": [
+            "season-1/na/event-1/game-4"
+          ]
         }
       },
       "totals": {
-        "placementPoints": 16,
+        "placementPoints": 22,
         "knockoutPoints": 2,
-        "damagePoints": 1,
-        "damageRaw": 3672,
-        "powerRankPoints": 19
+        "damagePoints": 2,
+        "damageRaw": 7189,
+        "powerRankPoints": 26
       },
       "games": [
         "season-1/na/event-1/game-4"
@@ -772,7 +906,7 @@
         },
         "21": {
           "names": {
-            "Hāšhira": 1
+            "Hāshira": 1
           },
           "totals": {
             "placementPoints": 3,
@@ -821,6 +955,35 @@
         "damagePoints": 1,
         "damageRaw": 2402,
         "powerRankPoints": 3
+      },
+      "games": [
+        "season-1/na/event-1/game-4"
+      ]
+    },
+    "43": {
+      "players": {
+        "23": {
+          "names": {
+            "Ξ! Spongi": 1
+          },
+          "totals": {
+            "placementPoints": 15,
+            "knockoutPoints": 4,
+            "damagePoints": 3,
+            "damageRaw": 6520,
+            "powerRankPoints": 22
+          },
+          "games": [
+            "season-1/na/event-1/game-4"
+          ]
+        }
+      },
+      "totals": {
+        "placementPoints": 15,
+        "knockoutPoints": 4,
+        "damagePoints": 3,
+        "damageRaw": 6520,
+        "powerRankPoints": 22
       },
       "games": [
         "season-1/na/event-1/game-4"
