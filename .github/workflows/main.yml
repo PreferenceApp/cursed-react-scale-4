@@ -1,5 +1,8 @@
 name: Build Totals
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
@@ -36,3 +39,4 @@ jobs:
         with:
           commit_message: "Generate totals.json files"
           branch: main
+          push_options: '--force'
