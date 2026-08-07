@@ -9,10 +9,8 @@ const ROOT = path.resolve("public/all");
 // --------------------------------------------------
 
 const emptyStats = () => ({
-    placement: 0,
     knockouts: 0,
-    damageRaw: 0,
-    games: 0
+    damageRaw: 0
 });
 
 
@@ -35,11 +33,6 @@ const emptyTotals = () => ({
 
 const addStats = (target = {}, source = {}) => {
 
-    target.placement =
-        (target.placement || 0) +
-        (source.placement || 0);
-
-
     target.knockouts =
         (target.knockouts || 0) +
         (source.knockouts || 0);
@@ -49,15 +42,7 @@ const addStats = (target = {}, source = {}) => {
         (target.damageRaw || 0) +
         (source.damageRaw || 0);
 
-
-    if (source.games) {
-
-        target.games =
-            (target.games || 0) +
-            source.games;
-    }
 };
-
 
 
 const mergeCounts = (target = {}, source = {}) => {
@@ -66,9 +51,10 @@ const mergeCounts = (target = {}, source = {}) => {
 
         target[id] =
             (target[id] || 0) + count;
-    }
-};
 
+    }
+
+};
 
 
 const mergeNames = (target = {}, source = {}) => {
@@ -77,9 +63,10 @@ const mergeNames = (target = {}, source = {}) => {
 
         target[name] =
             (target[name] || 0) + count;
-    }
-};
 
+    }
+
+};
 
 
 // --------------------------------------------------
@@ -94,11 +81,23 @@ const mergePlayers = (target, source) => {
         if (!target[playerId]) {
 
             target[playerId] = {
+
                 names: {},
-                stats: emptyStats()
+
+                games: {},
+
+                stats: emptyStats(),
+
+                placementBreakdown: {}
+
             };
+
         }
 
+
+        //
+        // Names
+        //
 
         mergeNames(
             target[playerId].names,
@@ -106,11 +105,37 @@ const mergePlayers = (target, source) => {
         );
 
 
+        //
+        // Games
+        //
+
+        mergeCounts(
+            target[playerId].games,
+            player.games
+        );
+
+
+        //
+        // Stats
+        //
+
         addStats(
             target[playerId].stats,
             player.stats
         );
+
+
+        //
+        // Placement Breakdown
+        //
+
+        mergeCounts(
+            target[playerId].placementBreakdown,
+            player.placementBreakdown
+        );
+
     }
+
 };
 
 
@@ -127,11 +152,23 @@ const mergeTeams = (target, source) => {
         if (!target[teamId]) {
 
             target[teamId] = {
+
                 names: {},
-                stats: emptyStats()
+
+                games: {},
+
+                stats: emptyStats(),
+
+                placementBreakdown: {}
+
             };
+
         }
 
+
+        //
+        // Names
+        //
 
         mergeNames(
             target[teamId].names,
@@ -139,11 +176,37 @@ const mergeTeams = (target, source) => {
         );
 
 
+        //
+        // Games
+        //
+
+        mergeCounts(
+            target[teamId].games,
+            team.games
+        );
+
+
+        //
+        // Stats
+        //
+
         addStats(
             target[teamId].stats,
             team.stats
         );
+
+
+        //
+        // Placement Breakdown
+        //
+
+        mergeCounts(
+            target[teamId].placementBreakdown,
+            team.placementBreakdown
+        );
+
     }
+
 };
 
 
@@ -155,17 +218,32 @@ const mergeTeams = (target, source) => {
 const mergeCharacters = (target, source) => {
 
 
-    for (const [characterId, character] of Object.entries(source || {})) {
+    for (
+        const [characterId, character]
+        of Object.entries(source || {})
+    ) {
 
 
         if (!target[characterId]) {
 
             target[characterId] = {
+
                 stats: emptyStats(),
+
+                placementBreakdown: {},
+
+                games: {},
+
                 players: {}
+
             };
+
         }
 
+
+        //
+        // Stats
+        //
 
         addStats(
             target[characterId].stats,
@@ -173,11 +251,37 @@ const mergeCharacters = (target, source) => {
         );
 
 
+        //
+        // Placement Breakdown
+        //
+
+        mergeCounts(
+            target[characterId].placementBreakdown,
+            character.placementBreakdown
+        );
+
+
+        //
+        // Games
+        //
+
+        mergeCounts(
+            target[characterId].games,
+            character.games
+        );
+
+
+        //
+        // Character -> Players
+        //
+
         mergePlayers(
             target[characterId].players,
             character.players
         );
+
     }
+
 };
 
 
@@ -189,19 +293,26 @@ const mergeCharacters = (target, source) => {
 const mergeRelationships = (target, source = {}) => {
 
 
+    //
     // Player relationships
+    //
 
-    for (const [playerId, player] of Object.entries(
-        source.players || {}
-    )) {
+    for (
+        const [playerId, player]
+        of Object.entries(source.players || {})
+    ) {
 
 
         if (!target.players[playerId]) {
 
             target.players[playerId] = {
+
                 teams: {},
+
                 characters: {}
+
             };
+
         }
 
 
@@ -215,24 +326,33 @@ const mergeRelationships = (target, source = {}) => {
             target.players[playerId].characters,
             player.characters
         );
+
     }
 
 
 
+    //
     // Team relationships
+    //
 
-    for (const [teamId, team] of Object.entries(
-        source.teams || {}
-    )) {
+    for (
+        const [teamId, team]
+        of Object.entries(source.teams || {})
+    ) {
 
 
         if (!target.teams[teamId]) {
 
             target.teams[teamId] = {
+
                 players: {},
+
                 characters: {},
+
                 charactersCombo: {}
+
             };
+
         }
 
 
@@ -252,23 +372,31 @@ const mergeRelationships = (target, source = {}) => {
             target.teams[teamId].charactersCombo,
             team.charactersCombo
         );
+
     }
 
 
 
+    //
     // Character relationships
+    //
 
-    for (const [characterId, character] of Object.entries(
-        source.characters || {}
-    )) {
+    for (
+        const [characterId, character]
+        of Object.entries(source.characters || {})
+    ) {
 
 
         if (!target.characters[characterId]) {
 
             target.characters[characterId] = {
+
                 players: {},
+
                 teams: {}
+
             };
+
         }
 
 
@@ -282,7 +410,9 @@ const mergeRelationships = (target, source = {}) => {
             target.characters[characterId].teams,
             character.teams
         );
+
     }
+
 };
 
 
@@ -315,6 +445,7 @@ const mergeTotals = (target, source) => {
         target.relationships,
         source.relationships
     );
+
 };
 
 
@@ -334,7 +465,9 @@ async function exists(file) {
     } catch {
 
         return false;
+
     }
+
 }
 
 
@@ -356,6 +489,7 @@ async function buildFolder(folder) {
         );
 
         return emptyTotals();
+
     }
 
 
@@ -384,7 +518,9 @@ async function buildFolder(folder) {
 
 
 
-    // Leaf node
+    // --------------------------------------------------
+    // Leaf Node
+    // --------------------------------------------------
 
     if (childFolders.length === 0) {
 
@@ -394,6 +530,7 @@ async function buildFolder(folder) {
             throw new Error(
                 `Missing totals.json in ${folder}`
             );
+
         }
 
 
@@ -403,11 +540,14 @@ async function buildFolder(folder) {
                 "utf8"
             )
         );
+
     }
 
 
 
-    // Parent node
+    // --------------------------------------------------
+    // Parent Node
+    // --------------------------------------------------
 
     const merged = emptyTotals();
 
@@ -424,6 +564,7 @@ async function buildFolder(folder) {
             merged,
             childTotals
         );
+
     }
 
 
@@ -444,6 +585,7 @@ async function buildFolder(folder) {
 
 
     return merged;
+
 }
 
 
@@ -465,6 +607,7 @@ async function main() {
     console.log(
         "Finished building totals."
     );
+
 }
 
 
