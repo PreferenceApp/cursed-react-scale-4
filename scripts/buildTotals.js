@@ -3,212 +3,305 @@ import path from "path";
 
 const ROOT = path.resolve("public/all");
 
+
 // --------------------------------------------------
-// Totals Helpers
+// Empty Schema
 // --------------------------------------------------
+
+const emptyStats = () => ({
+    placement: 0,
+    knockouts: 0,
+    damageRaw: 0,
+    games: 0
+});
+
 
 const emptyTotals = () => ({
     players: {},
     teams: {},
     characters: {},
-});
 
-
-const addNumbers = (a = {}, b = {}) => {
-
-    const result = { ...a };
-
-    for (const [key, value] of Object.entries(b || {})) {
-        result[key] = (result[key] || 0) + value;
+    relationships: {
+        players: {},
+        teams: {},
+        characters: {}
     }
-
-    return result;
-};
-
-
-const mergeGames = (a = [], b = []) => {
-
-    const games = new Set(a);
-
-    for (const game of b) {
-        games.add(game);
-    }
-
-    return [...games];
-};
-
-
-// --------------------------------------------------
-// Deep Copy
-// --------------------------------------------------
-
-const deepCopyStats = (item = {}) => ({
-    ...item,
-
-    totals: {
-        ...(item.totals || {})
-    },
-
-    names: {
-        ...(item.names || {})
-    },
-
-    teams: {
-        ...(item.teams || {})
-    },
-
-    characters: {
-        ...(item.characters || {})
-    },
-
-    games: item.games
-        ? [...item.games]
-        : []
 });
 
 
 // --------------------------------------------------
-// Merge Operations
+// Helpers
 // --------------------------------------------------
 
-const mergeStats = (target, source) => {
+const addStats = (target = {}, source = {}) => {
 
-    target.totals = addNumbers(
-        target.totals,
-        source.totals
-    );
-
-
-    target.names = addNumbers(
-        target.names,
-        source.names
-    );
+    target.placement =
+        (target.placement || 0) +
+        (source.placement || 0);
 
 
-    target.teams = addNumbers(
-        target.teams,
-        source.teams
-    );
+    target.knockouts =
+        (target.knockouts || 0) +
+        (source.knockouts || 0);
 
 
-    target.characters = addNumbers(
-        target.characters,
-        source.characters
-    );
+    target.damageRaw =
+        (target.damageRaw || 0) +
+        (source.damageRaw || 0);
 
 
-    target.games = mergeGames(
-        target.games,
-        source.games
-    );
+    if (source.games) {
+
+        target.games =
+            (target.games || 0) +
+            source.games;
+    }
 };
 
 
 
-const mergeCollections = (
-    target,
-    source,
-    mergeFunction
-) => {
+const mergeCounts = (target = {}, source = {}) => {
 
-    for (const [id, item] of Object.entries(source || {})) {
+    for (const [id, count] of Object.entries(source || {})) {
 
-        if (!target[id]) {
+        target[id] =
+            (target[id] || 0) + count;
+    }
+};
 
-            target[id] = deepCopyStats(item);
 
-        } else {
 
-            mergeFunction(
-                target[id],
-                item
-            );
+const mergeNames = (target = {}, source = {}) => {
+
+    for (const [name, count] of Object.entries(source || {})) {
+
+        target[name] =
+            (target[name] || 0) + count;
+    }
+};
+
+
+
+// --------------------------------------------------
+// Players
+// --------------------------------------------------
+
+const mergePlayers = (target, source) => {
+
+    for (const [playerId, player] of Object.entries(source || {})) {
+
+
+        if (!target[playerId]) {
+
+            target[playerId] = {
+                names: {},
+                stats: emptyStats()
+            };
         }
+
+
+        mergeNames(
+            target[playerId].names,
+            player.names
+        );
+
+
+        addStats(
+            target[playerId].stats,
+            player.stats
+        );
     }
 };
 
 
 
-const mergeCharacters = (
-    target,
-    source
-) => {
+// --------------------------------------------------
+// Teams
+// --------------------------------------------------
 
-    for (const [id, character] of Object.entries(source || {})) {
+const mergeTeams = (target, source) => {
+
+    for (const [teamId, team] of Object.entries(source || {})) {
 
 
-        if (!target[id]) {
+        if (!target[teamId]) {
 
-            target[id] = {
-                ...character,
+            target[teamId] = {
+                names: {},
+                stats: emptyStats()
+            };
+        }
 
-                totals: {
-                    ...(character.totals || {})
-                },
 
-                games: [
-                    ...(character.games || [])
-                ],
+        mergeNames(
+            target[teamId].names,
+            team.names
+        );
 
+
+        addStats(
+            target[teamId].stats,
+            team.stats
+        );
+    }
+};
+
+
+
+// --------------------------------------------------
+// Characters
+// --------------------------------------------------
+
+const mergeCharacters = (target, source) => {
+
+
+    for (const [characterId, character] of Object.entries(source || {})) {
+
+
+        if (!target[characterId]) {
+
+            target[characterId] = {
+                stats: emptyStats(),
                 players: {}
             };
-
-
-            mergeCollections(
-                target[id].players,
-                character.players,
-                mergeStats
-            );
-
-
-            continue;
         }
 
 
-
-        target[id].totals = addNumbers(
-            target[id].totals,
-            character.totals
+        addStats(
+            target[characterId].stats,
+            character.stats
         );
 
 
-        target[id].games = mergeGames(
-            target[id].games,
-            character.games
-        );
-
-
-        if (!target[id].players) {
-            target[id].players = {};
-        }
-
-
-        mergeCollections(
-            target[id].players,
-            character.players,
-            mergeStats
+        mergePlayers(
+            target[characterId].players,
+            character.players
         );
     }
 };
 
 
 
-const mergeTotals = (
-    target,
-    source
-) => {
+// --------------------------------------------------
+// Relationships
+// --------------------------------------------------
 
-    mergeCollections(
+const mergeRelationships = (target, source = {}) => {
+
+
+    // Player relationships
+
+    for (const [playerId, player] of Object.entries(
+        source.players || {}
+    )) {
+
+
+        if (!target.players[playerId]) {
+
+            target.players[playerId] = {
+                teams: {},
+                characters: {}
+            };
+        }
+
+
+        mergeCounts(
+            target.players[playerId].teams,
+            player.teams
+        );
+
+
+        mergeCounts(
+            target.players[playerId].characters,
+            player.characters
+        );
+    }
+
+
+
+    // Team relationships
+
+    for (const [teamId, team] of Object.entries(
+        source.teams || {}
+    )) {
+
+
+        if (!target.teams[teamId]) {
+
+            target.teams[teamId] = {
+                players: {},
+                characters: {},
+                charactersCombo: {}
+            };
+        }
+
+
+        mergeCounts(
+            target.teams[teamId].players,
+            team.players
+        );
+
+
+        mergeCounts(
+            target.teams[teamId].characters,
+            team.characters
+        );
+
+
+        mergeCounts(
+            target.teams[teamId].charactersCombo,
+            team.charactersCombo
+        );
+    }
+
+
+
+    // Character relationships
+
+    for (const [characterId, character] of Object.entries(
+        source.characters || {}
+    )) {
+
+
+        if (!target.characters[characterId]) {
+
+            target.characters[characterId] = {
+                players: {},
+                teams: {}
+            };
+        }
+
+
+        mergeCounts(
+            target.characters[characterId].players,
+            character.players
+        );
+
+
+        mergeCounts(
+            target.characters[characterId].teams,
+            character.teams
+        );
+    }
+};
+
+
+
+// --------------------------------------------------
+// Merge Totals
+// --------------------------------------------------
+
+const mergeTotals = (target, source) => {
+
+    mergePlayers(
         target.players,
-        source.players,
-        mergeStats
+        source.players
     );
 
 
-    mergeCollections(
+    mergeTeams(
         target.teams,
-        source.teams,
-        mergeStats
+        source.teams
     );
 
 
@@ -216,11 +309,18 @@ const mergeTotals = (
         target.characters,
         source.characters
     );
+
+
+    mergeRelationships(
+        target.relationships,
+        source.relationships
+    );
 };
 
 
+
 // --------------------------------------------------
-// Filesystem Helpers
+// Filesystem
 // --------------------------------------------------
 
 async function exists(file) {
@@ -228,6 +328,7 @@ async function exists(file) {
     try {
 
         await fs.access(file);
+
         return true;
 
     } catch {
@@ -237,16 +338,17 @@ async function exists(file) {
 }
 
 
+
 // --------------------------------------------------
 // Recursive Builder
 // --------------------------------------------------
 
 async function buildFolder(folder) {
 
+
     const folderName = path.basename(folder);
 
 
-    // Ignore excluded folders
     if (folderName.startsWith("unranked")) {
 
         console.log(
@@ -266,6 +368,7 @@ async function buildFolder(folder) {
     );
 
 
+
     const childFolders = entries
         .filter(entry => entry.isDirectory())
         .map(entry =>
@@ -281,14 +384,7 @@ async function buildFolder(folder) {
 
 
 
-    /*
-        Leaf folder
-
-        Example:
-        public/all/season-1/na/event-1/game-1
-
-        This is the source of truth.
-    */
+    // Leaf node
 
     if (childFolders.length === 0) {
 
@@ -311,17 +407,14 @@ async function buildFolder(folder) {
 
 
 
-    /*
-        Parent folder
-
-        Merge children
-    */
+    // Parent node
 
     const merged = emptyTotals();
 
 
 
     for (const child of childFolders) {
+
 
         const childTotals =
             await buildFolder(child);
@@ -354,6 +447,7 @@ async function buildFolder(folder) {
 }
 
 
+
 // --------------------------------------------------
 // Run
 // --------------------------------------------------
@@ -379,6 +473,7 @@ main()
     .catch(error => {
 
         console.error(error);
+
         process.exit(1);
 
     });
