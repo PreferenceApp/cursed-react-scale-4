@@ -2,28 +2,32 @@
   "players": {
     "11": {
       "names": {
-        "P Σ devil": 1
+        "P E devil": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 8,
         "knockouts": 0,
         "damageRaw": 1247
+      },
+      "placementBreakdown": {
+        "8": 1
       }
     },
     "18": {
       "names": {
-        "K-乂spooky": 1
+        "K-xspooky": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 3,
         "knockouts": 2,
         "damageRaw": 4386
+      },
+      "placementBreakdown": {
+        "3": 1
       }
     },
     "19": {
@@ -34,22 +38,26 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 3,
         "knockouts": 2,
         "damageRaw": 3557
+      },
+      "placementBreakdown": {
+        "3": 1
       }
     },
     "26": {
       "names": {
-        "K-乂 Indra,": 1
+        "K-x Indra, Nash gold jr": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 1,
         "knockouts": 4,
         "damageRaw": 6639
+      },
+      "placementBreakdown": {
+        "1": 1
       }
     },
     "27": {
@@ -60,9 +68,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 1,
         "knockouts": 2,
         "damageRaw": 4919
+      },
+      "placementBreakdown": {
+        "1": 1
       }
     },
     "28": {
@@ -73,9 +83,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 1,
         "knockouts": 2,
         "damageRaw": 3746
+      },
+      "placementBreakdown": {
+        "1": 1
       }
     },
     "29": {
@@ -86,9 +98,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 2,
         "knockouts": 4,
         "damageRaw": 6968
+      },
+      "placementBreakdown": {
+        "2": 1
       }
     },
     "30": {
@@ -99,22 +113,26 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 2,
         "knockouts": 2,
         "damageRaw": 3441
+      },
+      "placementBreakdown": {
+        "2": 1
       }
     },
     "31": {
       "names": {
-        "Rozar 愛": 1
+        "Rozar 爱": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 2,
         "knockouts": 0,
         "damageRaw": 2662
+      },
+      "placementBreakdown": {
+        "2": 1
       }
     },
     "32": {
@@ -125,9 +143,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 3,
         "knockouts": 1,
         "damageRaw": 4736
+      },
+      "placementBreakdown": {
+        "3": 1
       }
     },
     "33": {
@@ -138,9 +158,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 4,
         "knockouts": 1,
         "damageRaw": 4604
+      },
+      "placementBreakdown": {
+        "4": 1
       }
     },
     "34": {
@@ -151,9 +173,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 4,
         "knockouts": 0,
         "damageRaw": 849
+      },
+      "placementBreakdown": {
+        "4": 1
       }
     },
     "35": {
@@ -164,9 +188,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 4,
         "knockouts": 0,
         "damageRaw": 23
+      },
+      "placementBreakdown": {
+        "4": 1
       }
     },
     "36": {
@@ -177,9 +203,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 5,
         "knockouts": 2,
         "damageRaw": 3504
+      },
+      "placementBreakdown": {
+        "5": 1
       }
     },
     "37": {
@@ -190,9 +218,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 5,
         "knockouts": 1,
         "damageRaw": 2635
+      },
+      "placementBreakdown": {
+        "5": 1
       }
     },
     "38": {
@@ -203,9 +233,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 5,
         "knockouts": 0,
         "damageRaw": 1370
+      },
+      "placementBreakdown": {
+        "5": 1
       }
     },
     "39": {
@@ -216,9 +248,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 6,
         "knockouts": 1,
         "damageRaw": 5123
+      },
+      "placementBreakdown": {
+        "6": 1
       }
     },
     "40": {
@@ -229,9 +263,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 6,
         "knockouts": 1,
         "damageRaw": 2277
+      },
+      "placementBreakdown": {
+        "6": 1
       }
     },
     "41": {
@@ -242,9 +278,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 6,
         "knockouts": 1,
         "damageRaw": 1093
+      },
+      "placementBreakdown": {
+        "6": 1
       }
     },
     "42": {
@@ -255,9 +293,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 7,
         "knockouts": 2,
         "damageRaw": 3396
+      },
+      "placementBreakdown": {
+        "7": 1
       }
     },
     "43": {
@@ -268,9 +308,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 7,
         "knockouts": 0,
         "damageRaw": 2679
+      },
+      "placementBreakdown": {
+        "7": 1
       }
     },
     "44": {
@@ -281,22 +323,26 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 7,
         "knockouts": 0,
         "damageRaw": 727
+      },
+      "placementBreakdown": {
+        "7": 1
       }
     },
     "45": {
       "names": {
-        "P Σ KIDark_": 1
+        "P E KIDark_": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 8,
         "knockouts": 0,
         "damageRaw": 1653
+      },
+      "placementBreakdown": {
+        "8": 1
       }
     },
     "50": {
@@ -307,9 +353,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 8,
         "knockouts": 0,
         "damageRaw": 600
+      },
+      "placementBreakdown": {
+        "8": 1
       }
     }
   },
@@ -322,9 +370,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 1,
         "knockouts": 8,
         "damageRaw": 15304
+      },
+      "placementBreakdown": {
+        "1": 1
       }
     },
     "29-30-31": {
@@ -335,9 +385,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 2,
         "knockouts": 6,
         "damageRaw": 13071
+      },
+      "placementBreakdown": {
+        "2": 1
       }
     },
     "18-19-32": {
@@ -348,9 +400,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 3,
         "knockouts": 5,
         "damageRaw": 12679
+      },
+      "placementBreakdown": {
+        "3": 1
       }
     },
     "33-34-35": {
@@ -361,9 +415,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 4,
         "knockouts": 1,
         "damageRaw": 5476
+      },
+      "placementBreakdown": {
+        "4": 1
       }
     },
     "36-37-38": {
@@ -374,9 +430,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 5,
         "knockouts": 3,
         "damageRaw": 7509
+      },
+      "placementBreakdown": {
+        "5": 1
       }
     },
     "39-40-41": {
@@ -387,9 +445,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 6,
         "knockouts": 3,
         "damageRaw": 8493
+      },
+      "placementBreakdown": {
+        "6": 1
       }
     },
     "42-43-44": {
@@ -400,9 +460,11 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 7,
         "knockouts": 2,
         "damageRaw": 6802
+      },
+      "placementBreakdown": {
+        "7": 1
       }
     },
     "11-45-50": {
@@ -413,18 +475,22 @@
         "season-1/na/event-2/game-1": 1
       },
       "stats": {
-        "placement": 8,
         "knockouts": 0,
         "damageRaw": 3500
+      },
+      "placementBreakdown": {
+        "8": 1
       }
     }
   },
   "characters": {
     "4": {
       "stats": {
-        "placement": 1,
         "knockouts": 4,
         "damageRaw": 6639
+      },
+      "placementBreakdown": {
+        "1": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -432,24 +498,29 @@
       "players": {
         "26": {
           "names": {
-            "K-乂 Indra,": 1
+            "K-x Indra, Nash gold jr": 1
           },
           "games": {
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 1,
             "knockouts": 4,
             "damageRaw": 6639
+          },
+          "placementBreakdown": {
+            "1": 1
           }
         }
       }
     },
     "8": {
       "stats": {
-        "placement": 9,
         "knockouts": 2,
         "damageRaw": 4168
+      },
+      "placementBreakdown": {
+        "2": 1,
+        "7": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 2
@@ -463,9 +534,11 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 2,
             "knockouts": 2,
             "damageRaw": 3441
+          },
+          "placementBreakdown": {
+            "2": 1
           }
         },
         "44": {
@@ -476,18 +549,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 7,
             "knockouts": 0,
             "damageRaw": 727
+          },
+          "placementBreakdown": {
+            "7": 1
           }
         }
       }
     },
     "11": {
       "stats": {
-        "placement": 1,
         "knockouts": 2,
         "damageRaw": 4919
+      },
+      "placementBreakdown": {
+        "1": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -501,18 +578,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 1,
             "knockouts": 2,
             "damageRaw": 4919
+          },
+          "placementBreakdown": {
+            "1": 1
           }
         }
       }
     },
     "13": {
       "stats": {
-        "placement": 8,
         "knockouts": 0,
         "damageRaw": 600
+      },
+      "placementBreakdown": {
+        "8": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -526,18 +607,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 8,
             "knockouts": 0,
             "damageRaw": 600
+          },
+          "placementBreakdown": {
+            "8": 1
           }
         }
       }
     },
     "16": {
       "stats": {
-        "placement": 6,
         "knockouts": 1,
         "damageRaw": 5123
+      },
+      "placementBreakdown": {
+        "6": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -551,18 +636,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 6,
             "knockouts": 1,
             "damageRaw": 5123
+          },
+          "placementBreakdown": {
+            "6": 1
           }
         }
       }
     },
     "17": {
       "stats": {
-        "placement": 7,
         "knockouts": 0,
         "damageRaw": 2679
+      },
+      "placementBreakdown": {
+        "7": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -576,18 +665,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 7,
             "knockouts": 0,
             "damageRaw": 2679
+          },
+          "placementBreakdown": {
+            "7": 1
           }
         }
       }
     },
     "19": {
       "stats": {
-        "placement": 5,
         "knockouts": 0,
         "damageRaw": 1370
+      },
+      "placementBreakdown": {
+        "5": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -601,18 +694,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 5,
             "knockouts": 0,
             "damageRaw": 1370
+          },
+          "placementBreakdown": {
+            "5": 1
           }
         }
       }
     },
-    "29": {
+    "30": {
       "stats": {
-        "placement": 5,
         "knockouts": 1,
         "damageRaw": 2635
+      },
+      "placementBreakdown": {
+        "5": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -626,245 +723,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 5,
             "knockouts": 1,
             "damageRaw": 2635
+          },
+          "placementBreakdown": {
+            "5": 1
           }
         }
       }
     },
-    "35": {
+    "34": {
       "stats": {
-        "placement": 4,
-        "knockouts": 0,
-        "damageRaw": 23
-      },
-      "games": {
-        "season-1/na/event-2/game-1": 1
-      },
-      "players": {
-        "35": {
-          "names": {
-            "Nort": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 4,
-            "knockouts": 0,
-            "damageRaw": 23
-          }
-        }
-      }
-    },
-    "37": {
-      "stats": {
-        "placement": 6,
-        "knockouts": 4,
-        "damageRaw": 9965
-      },
-      "games": {
-        "season-1/na/event-2/game-1": 3
-      },
-      "players": {
-        "19": {
-          "names": {
-            "Kawaii": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 3,
-            "knockouts": 2,
-            "damageRaw": 3557
-          }
-        },
-        "28": {
-          "names": {
-            "LekurogiriTTV": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 1,
-            "knockouts": 2,
-            "damageRaw": 3746
-          }
-        },
-        "31": {
-          "names": {
-            "Rozar 愛": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 2,
-            "knockouts": 0,
-            "damageRaw": 2662
-          }
-        }
-      }
-    },
-    "39": {
-      "stats": {
-        "placement": 6,
-        "knockouts": 1,
-        "damageRaw": 1093
-      },
-      "games": {
-        "season-1/na/event-2/game-1": 1
-      },
-      "players": {
-        "41": {
-          "names": {
-            "Shadowmech": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 6,
-            "knockouts": 1,
-            "damageRaw": 1093
-          }
-        }
-      }
-    },
-    "40": {
-      "stats": {
-        "placement": 7,
-        "knockouts": 2,
-        "damageRaw": 3396
-      },
-      "games": {
-        "season-1/na/event-2/game-1": 1
-      },
-      "players": {
-        "42": {
-          "names": {
-            "CITG": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 7,
-            "knockouts": 2,
-            "damageRaw": 3396
-          }
-        }
-      }
-    },
-    "44": {
-      "stats": {
-        "placement": 5,
-        "knockouts": 6,
-        "damageRaw": 11354
-      },
-      "games": {
-        "season-1/na/event-2/game-1": 2
-      },
-      "players": {
-        "18": {
-          "names": {
-            "K-乂spooky": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 3,
-            "knockouts": 2,
-            "damageRaw": 4386
-          }
-        },
-        "29": {
-          "names": {
-            "RedTick67": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 2,
-            "knockouts": 4,
-            "damageRaw": 6968
-          }
-        }
-      }
-    },
-    "45": {
-      "stats": {
-        "placement": 8,
-        "knockouts": 3,
-        "damageRaw": 8240
-      },
-      "games": {
-        "season-1/na/event-2/game-1": 2
-      },
-      "players": {
-        "32": {
-          "names": {
-            "Mutation Z": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 3,
-            "knockouts": 1,
-            "damageRaw": 4736
-          }
-        },
-        "36": {
-          "names": {
-            "Letthedevilout": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 5,
-            "knockouts": 2,
-            "damageRaw": 3504
-          }
-        }
-      }
-    },
-    "52": {
-      "stats": {
-        "placement": 4,
-        "knockouts": 1,
-        "damageRaw": 4604
-      },
-      "games": {
-        "season-1/na/event-2/game-1": 1
-      },
-      "players": {
-        "33": {
-          "names": {
-            "TheBestLoser": 1
-          },
-          "games": {
-            "season-1/na/event-2/game-1": 1
-          },
-          "stats": {
-            "placement": 4,
-            "knockouts": 1,
-            "damageRaw": 4604
-          }
-        }
-      }
-    },
-    "54": {
-      "stats": {
-        "placement": 6,
         "knockouts": 1,
         "damageRaw": 2277
+      },
+      "placementBreakdown": {
+        "6": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -878,18 +752,316 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 6,
             "knockouts": 1,
             "damageRaw": 2277
+          },
+          "placementBreakdown": {
+            "6": 1
+          }
+        }
+      }
+    },
+    "37": {
+      "stats": {
+        "knockouts": 4,
+        "damageRaw": 9965
+      },
+      "placementBreakdown": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 3
+      },
+      "players": {
+        "19": {
+          "names": {
+            "Kawaii": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 2,
+            "damageRaw": 3557
+          },
+          "placementBreakdown": {
+            "3": 1
+          }
+        },
+        "28": {
+          "names": {
+            "LekurogiriTTV": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 2,
+            "damageRaw": 3746
+          },
+          "placementBreakdown": {
+            "1": 1
+          }
+        },
+        "31": {
+          "names": {
+            "Rozar 爱": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 0,
+            "damageRaw": 2662
+          },
+          "placementBreakdown": {
+            "2": 1
+          }
+        }
+      }
+    },
+    "39": {
+      "stats": {
+        "knockouts": 1,
+        "damageRaw": 1093
+      },
+      "placementBreakdown": {
+        "6": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "41": {
+          "names": {
+            "Shadowmech": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 1,
+            "damageRaw": 1093
+          },
+          "placementBreakdown": {
+            "6": 1
+          }
+        }
+      }
+    },
+    "40": {
+      "stats": {
+        "knockouts": 2,
+        "damageRaw": 3396
+      },
+      "placementBreakdown": {
+        "7": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "42": {
+          "names": {
+            "CITG": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 2,
+            "damageRaw": 3396
+          },
+          "placementBreakdown": {
+            "7": 1
+          }
+        }
+      }
+    },
+    "41": {
+      "stats": {
+        "knockouts": 0,
+        "damageRaw": 23
+      },
+      "placementBreakdown": {
+        "4": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "35": {
+          "names": {
+            "Nort": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 0,
+            "damageRaw": 23
+          },
+          "placementBreakdown": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "43": {
+      "stats": {
+        "knockouts": 2,
+        "damageRaw": 4386
+      },
+      "placementBreakdown": {
+        "3": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "18": {
+          "names": {
+            "K-xspooky": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 2,
+            "damageRaw": 4386
+          },
+          "placementBreakdown": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "44": {
+      "stats": {
+        "knockouts": 4,
+        "damageRaw": 6968
+      },
+      "placementBreakdown": {
+        "2": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "29": {
+          "names": {
+            "RedTick67": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 4,
+            "damageRaw": 6968
+          },
+          "placementBreakdown": {
+            "2": 1
+          }
+        }
+      }
+    },
+    "45": {
+      "stats": {
+        "knockouts": 1,
+        "damageRaw": 4736
+      },
+      "placementBreakdown": {
+        "3": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "32": {
+          "names": {
+            "Mutation Z": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 1,
+            "damageRaw": 4736
+          },
+          "placementBreakdown": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "51": {
+      "stats": {
+        "knockouts": 2,
+        "damageRaw": 3504
+      },
+      "placementBreakdown": {
+        "5": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "36": {
+          "names": {
+            "Letthedevilout": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 2,
+            "damageRaw": 3504
+          },
+          "placementBreakdown": {
+            "5": 1
+          }
+        }
+      }
+    },
+    "52": {
+      "stats": {
+        "knockouts": 1,
+        "damageRaw": 4604
+      },
+      "placementBreakdown": {
+        "4": 1
+      },
+      "games": {
+        "season-1/na/event-2/game-1": 1
+      },
+      "players": {
+        "33": {
+          "names": {
+            "TheBestLoser": 1
+          },
+          "games": {
+            "season-1/na/event-2/game-1": 1
+          },
+          "stats": {
+            "knockouts": 1,
+            "damageRaw": 4604
+          },
+          "placementBreakdown": {
+            "4": 1
           }
         }
       }
     },
     "57": {
       "stats": {
-        "placement": 12,
         "knockouts": 0,
         "damageRaw": 2096
+      },
+      "placementBreakdown": {
+        "4": 1,
+        "8": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 2
@@ -897,15 +1069,17 @@
       "players": {
         "11": {
           "names": {
-            "P Σ devil": 1
+            "P E devil": 1
           },
           "games": {
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 8,
             "knockouts": 0,
             "damageRaw": 1247
+          },
+          "placementBreakdown": {
+            "8": 1
           }
         },
         "34": {
@@ -916,18 +1090,22 @@
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 4,
             "knockouts": 0,
             "damageRaw": 849
+          },
+          "placementBreakdown": {
+            "4": 1
           }
         }
       }
     },
     "59": {
       "stats": {
-        "placement": 8,
         "knockouts": 0,
         "damageRaw": 1653
+      },
+      "placementBreakdown": {
+        "8": 1
       },
       "games": {
         "season-1/na/event-2/game-1": 1
@@ -935,15 +1113,17 @@
       "players": {
         "45": {
           "names": {
-            "P Σ KIDark_": 1
+            "P E KIDark_": 1
           },
           "games": {
             "season-1/na/event-2/game-1": 1
           },
           "stats": {
-            "placement": 8,
             "knockouts": 0,
             "damageRaw": 1653
+          },
+          "placementBreakdown": {
+            "8": 1
           }
         }
       }
@@ -964,7 +1144,7 @@
           "18-19-32": 1
         },
         "characters": {
-          "44": 1
+          "43": 1
         }
       },
       "19": {
@@ -1052,7 +1232,7 @@
           "33-34-35": 1
         },
         "characters": {
-          "35": 1
+          "41": 1
         }
       },
       "36": {
@@ -1060,7 +1240,7 @@
           "36-37-38": 1
         },
         "characters": {
-          "45": 1
+          "51": 1
         }
       },
       "37": {
@@ -1068,7 +1248,7 @@
           "36-37-38": 1
         },
         "characters": {
-          "29": 1
+          "30": 1
         }
       },
       "38": {
@@ -1092,7 +1272,7 @@
           "39-40-41": 1
         },
         "characters": {
-          "54": 1
+          "34": 1
         }
       },
       "41": {
@@ -1183,11 +1363,11 @@
         },
         "characters": {
           "37": 1,
-          "44": 1,
+          "43": 1,
           "45": 1
         },
         "charactersCombo": {
-          "37-44-45": 1
+          "37-43-45": 1
         }
       },
       "33-34-35": {
@@ -1197,12 +1377,12 @@
           "35": 1
         },
         "characters": {
-          "35": 1,
+          "41": 1,
           "52": 1,
           "57": 1
         },
         "charactersCombo": {
-          "35-52-57": 1
+          "41-52-57": 1
         }
       },
       "36-37-38": {
@@ -1213,11 +1393,11 @@
         },
         "characters": {
           "19": 1,
-          "29": 1,
-          "45": 1
+          "30": 1,
+          "51": 1
         },
         "charactersCombo": {
-          "19-29-45": 1
+          "19-30-51": 1
         }
       },
       "39-40-41": {
@@ -1228,11 +1408,11 @@
         },
         "characters": {
           "16": 1,
-          "39": 1,
-          "54": 1
+          "34": 1,
+          "39": 1
         },
         "charactersCombo": {
-          "16-39-54": 1
+          "16-34-39": 1
         }
       },
       "42-43-44": {
@@ -1325,7 +1505,7 @@
           "36-37-38": 1
         }
       },
-      "29": {
+      "30": {
         "players": {
           "37": 1
         },
@@ -1333,12 +1513,12 @@
           "36-37-38": 1
         }
       },
-      "35": {
+      "34": {
         "players": {
-          "35": 1
+          "40": 1
         },
         "teams": {
-          "33-34-35": 1
+          "39-40-41": 1
         }
       },
       "37": {
@@ -1369,23 +1549,43 @@
           "42-43-44": 1
         }
       },
+      "41": {
+        "players": {
+          "35": 1
+        },
+        "teams": {
+          "33-34-35": 1
+        }
+      },
+      "43": {
+        "players": {
+          "18": 1
+        },
+        "teams": {
+          "18-19-32": 1
+        }
+      },
       "44": {
         "players": {
-          "18": 1,
           "29": 1
         },
         "teams": {
-          "29-30-31": 1,
-          "18-19-32": 1
+          "29-30-31": 1
         }
       },
       "45": {
         "players": {
-          "32": 1,
+          "32": 1
+        },
+        "teams": {
+          "18-19-32": 1
+        }
+      },
+      "51": {
+        "players": {
           "36": 1
         },
         "teams": {
-          "18-19-32": 1,
           "36-37-38": 1
         }
       },
@@ -1395,14 +1595,6 @@
         },
         "teams": {
           "33-34-35": 1
-        }
-      },
-      "54": {
-        "players": {
-          "40": 1
-        },
-        "teams": {
-          "39-40-41": 1
         }
       },
       "57": {
