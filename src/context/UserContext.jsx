@@ -19,12 +19,10 @@ export function useUser() {
 }
 
 
-
 export function UserProvider({ children }) {
 
   const [user, setUser] = useState(null);
   const [userLoading, setUserLoading] = useState(true);
-
 
 
   async function refreshUser() {
@@ -34,14 +32,12 @@ export function UserProvider({ children }) {
     try {
 
       const current = await account.get();
-
+     // logout();
       setUser(current);
 
-
-    } catch(error) {
+    } catch (error) {
 
       setUser(null);
-
 
     } finally {
 
@@ -52,78 +48,68 @@ export function UserProvider({ children }) {
   }
 
 
+  async function login(endpoint = "success") {
 
+    if (user) return;
 
-  async function login(endpoint="success") {
-
-    if(user) return;
-
-
-    const redirect =
-      window.location.origin;
-
+    const redirect = window.location.origin;
 
     await account.createOAuth2Session({
 
       provider: OAuthProvider.Discord,
 
-      success:`${redirect}/${endpoint}`,
+      success: `${redirect}/${endpoint}`,
 
-      failure:`${redirect}/failure`,
+      failure: `${redirect}/failure`,
 
-      scopes:["identify"],
+      scopes: ["identify"],
 
     });
 
   }
 
 
+  async function logout() {
 
+    try {
 
+      await account.deleteSession({
+        sessionId: "current",
+      });
 
-  async function logout(){
+    } catch (error) {
 
-    await account.deleteSession({
-      sessionId:"current",
-    });
+      console.error(
+        "Failed logging out:",
+        error
+      );
 
+    } finally {
 
-    setUser(null);
+      setUser(null);
+
+    }
 
   }
 
 
-
-
-
-  useEffect(()=>{
+  useEffect(() => {
 
     refreshUser();
 
-  },[]);
-
-
-
+  }, []);
 
 
   return (
 
     <UserContext.Provider
-
       value={{
-
         user,
-
         userLoading,
-
         login,
-
         logout,
-
         refreshUser,
-
       }}
-
     >
 
       {children}

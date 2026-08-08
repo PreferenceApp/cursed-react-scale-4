@@ -10,7 +10,6 @@ import {
 } from "../appwrite.js";
 
 import { useUser } from "../context/UserContext.jsx";
-import { usePlayer } from "../context/PlayerContext.jsx";
 
 
 const styles = {

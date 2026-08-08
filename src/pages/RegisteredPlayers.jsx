@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { usePlayer } from "../context/PlayerContext.jsx";
 import { useUser } from "../context/UserContext.jsx";
-import { useEvent } from "../context/EventContext.jsx";
+import { useEvents } from "../context/EventsContext.jsx";
 const styles = {
   page: {
     minHeight: "100vh",
@@ -124,12 +123,7 @@ const RegisteredPlayers = () => {
 
   const navigate = useNavigate();
 
-  const { event } = useEvent();
-
-  const {
-    players,
-    playersLoading,
-  } = usePlayer();
+  const { events } = useEvents();
 
 
   const [search, setSearch] = useState("");

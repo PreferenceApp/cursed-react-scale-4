@@ -2,7 +2,6 @@ import { useUser } from "./context/UserContext.jsx";
 import { Link, useNavigate } from "react-router-dom";
 import { useTheme } from "./context/ThemeContext.jsx";
 import Avatar from "./components/Avatar.jsx";
-import { usePlayer } from "./context/PlayerContext.jsx";
 
 
 const styles = {
@@ -86,7 +85,6 @@ export const Navbar = () => {
   const navigate = useNavigate();
 
   const { user, login } = useUser();
-  const { player } = usePlayer();
   const { theme, toggleTheme } = useTheme();
 
 
@@ -132,11 +130,7 @@ export const Navbar = () => {
 
         {user ? (
 
-          <Avatar
-            player={player}
-            style={styles.avatar}
-            onClick={() => navigate("/profile")}
-          />
+          <div>nice</div>
 
 
         ) : (

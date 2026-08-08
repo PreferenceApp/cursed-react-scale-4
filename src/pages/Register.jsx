@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { usePlayer } from "../context/PlayerContext.jsx";
-import { useEvent } from "../context/EventContext.jsx";
+import { useEvents } from "../context/EventsContext.jsx";
 import { useUser } from "../context/UserContext.jsx";
 
 
@@ -157,7 +156,7 @@ const Register = () => {
   } = usePlayer();
 
 
-  const { event } = useEvent();
+  const { events } = useEvents();
 
 
   const [playerName,setPlayerName] = useState("");

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { tablesDB } from "../appwrite.js";
 
 import { useUser } from "../context/UserContext.jsx";
-import { useEvent } from "../context/EventContext.jsx";
+import { useEvents } from "../context/EventsContext.jsx";
 
 
 const styles = {
@@ -145,7 +145,7 @@ const AdminEvent = () => {
   const navigate = useNavigate();
 
   const { user } = useUser();
-  const { event, setEvent } = useEvent();
+  const { events, setEvents } = useEvents();
 
 
   const [eventName, setEventName] = useState("");

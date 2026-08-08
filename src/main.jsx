@@ -17,9 +17,7 @@ import Privacy from "./pages/Privacy";
 import About from "./pages/About.jsx";
 import Rules from "./pages/Rules.jsx";
 import FAQs from "./pages/FAQs.jsx";
-import Leaderboard from "./pages/Leaderboard.jsx";
 import Success from "./pages/Success.jsx";
-import Games from "./pages/Games.jsx";
 
 import Players from "./pages/Players.jsx";
 import Teams from "./pages/Teams.jsx";
@@ -39,10 +37,11 @@ import AdminPlayers from "./pages/AdminPlayers.jsx";
 import AdminPlayerUpsert from "./pages/AdminPlayerUpsert.jsx";
 
 import { AppProviders } from "./AppProviders.jsx";
+
 import { useUser } from "./context/UserContext.jsx";
-import { useEvent } from "./context/EventContext.jsx";
+import { useEvents } from "./context/EventsContext.jsx";
 import { useTheme } from "./context/ThemeContext.jsx";
-import { usePlayer } from "./context/PlayerContext.jsx";
+import { useRegistered } from "./context/RegisteredContext.jsx";
 
 const router = createBrowserRouter([
   {
@@ -50,7 +49,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       // Public landing page
-      { index: true, element: <Leaderboard />}, 
+      { index: true, element: <Home />}, 
       // Auth Guard Layout wrapping all protected member routes
       {
         element: <AuthGuard />, 
@@ -63,13 +62,8 @@ const router = createBrowserRouter([
       // Unauthenticated routes
       { path: "register", element: <Register /> },
       { path: "register-success", element: <RegisterSuccess /> },
-      // Public informational pages
       { path: "registered", element: <RegisteredPlayers/>},
 
-      {
-        path:"leaderboard/*",
-        element:<Leaderboard/>
-      },
       {
         path:"players/*",
         element:<Players/>
@@ -84,7 +78,7 @@ const router = createBrowserRouter([
       },
        {
         path:"player/:playerId/*",
-        element:<Player standalone={true} forceExpanded={true}/>
+        element:<Player/>
       },
       {
         path:"team/:teamId/*",
@@ -94,11 +88,13 @@ const router = createBrowserRouter([
         path:"character/:characterId/*",
         element: <Character />
       },
+
       { path: "faqs", element: <FAQs /> },
       { path: "privacy", element: <Privacy /> },
       { path: "rules", element: <Rules /> },
       { path: "about", element: <About /> },
       { path: "success", element: <Success/>},
+
       // Admin dashboard layout (Nested inside RootLayout)
       {
         path: "admin",
@@ -122,10 +118,10 @@ const router = createBrowserRouter([
 
 function App() {
   const { userLoading } = useUser();
-  const { eventLoading } = useEvent();
-  const { playerLoading } = usePlayer();
+  const { eventsLoading } = useEvents();
+  const { registeredLoading } = useRegistered();
 
-  if (userLoading || eventLoading || playerLoading) {
+  if (userLoading || eventsLoading || registeredLoading) {
     return <Loading />;
   }
 

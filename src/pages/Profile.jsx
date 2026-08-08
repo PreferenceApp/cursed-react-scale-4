@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { tablesDB } from "../appwrite.js";
 
 import { useUser } from "../context/UserContext.jsx";
-import { usePlayer } from "../context/PlayerContext.jsx";
 
 const styles = {
   page: {

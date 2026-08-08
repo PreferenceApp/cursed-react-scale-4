@@ -1,20 +1,20 @@
 import { ThemeProvider } from "./context/ThemeContext";
 import { UserProvider } from "./context/UserContext";
-import { EventProvider } from "./context/EventContext";
-import { PlayerProvider } from "./context/PlayerContext";
+import { EventsProvider } from "./context/EventsContext";
+import { RegisteredProvider } from "./context/RegisteredContext";
 import { DataProvider } from "./context/DataContext";
 
 export function AppProviders({ children }) {
   return (
     <ThemeProvider>
       <UserProvider>
-        <EventProvider>
-          <PlayerProvider>
+        <EventsProvider>
+          <RegisteredProvider>
             <DataProvider>
               {children}
             </DataProvider>
-          </PlayerProvider>
-        </EventProvider>
+          </RegisteredProvider>
+        </EventsProvider>
       </UserProvider>
     </ThemeProvider>
   );
