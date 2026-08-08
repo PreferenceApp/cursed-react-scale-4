@@ -5,39 +5,59 @@ const ROOT = path.resolve("public/all");
 
 
 // ============================================================
-// Empty Schema
+// EMPTY SCHEMA
 // ============================================================
 
 const emptyTotals = () => ({
 
     names: {
+
         players: {},
+
         teams: {}
+
     },
 
     knockouts: {
+
         players: {},
+
         characters: {},
+
         playerCharacters: {}
+
     },
 
     damageRaw: {
+
         players: {},
+
         characters: {},
+
         playerCharacters: {}
+
     },
 
     placement: {
+
         players: {},
+
         characters: {},
+
         playerCharacters: {}
+
     },
 
     games: {
+
         all: {},
+
         players: {},
+
         characters: {},
+
         playerCharacters: {}
+
     },
 
     teams: {}
@@ -46,7 +66,7 @@ const emptyTotals = () => ({
 
 
 // ============================================================
-// Merge Flat Counts
+// MERGE FLAT COUNTS
 // ============================================================
 
 const mergeCounts = (
@@ -56,11 +76,12 @@ const mergeCounts = (
 
     for (
         const [id, value]
-        of Object.entries(source)
+        of Object.entries(source || {})
     ) {
 
         target[id] =
-            (target[id] || 0) + value;
+            (target[id] || 0) +
+            value;
 
     }
 
@@ -68,7 +89,7 @@ const mergeCounts = (
 
 
 // ============================================================
-// Merge Names
+// MERGE NAMES
 // ============================================================
 
 const mergeNames = (
@@ -78,7 +99,7 @@ const mergeNames = (
 
     for (
         const [id, names]
-        of Object.entries(source)
+        of Object.entries(source || {})
     ) {
 
         if (!target[id]) {
@@ -99,7 +120,7 @@ const mergeNames = (
 
 
 // ============================================================
-// Merge Nested Stats
+// MERGE NESTED STATS
 //
 // Example:
 //
@@ -119,7 +140,7 @@ const mergeNestedStats = (
 
     for (
         const [id, values]
-        of Object.entries(source)
+        of Object.entries(source || {})
     ) {
 
         if (!target[id]) {
@@ -140,7 +161,7 @@ const mergeNestedStats = (
 
 
 // ============================================================
-// Merge Placement
+// MERGE PLACEMENT
 //
 // Example:
 //
@@ -155,9 +176,13 @@ const mergeNestedStats = (
 // ============================================================
 
 const mergePlacement = (
-    target = {},
-    source = {}
+    target,
+    source
 ) => {
+
+    // --------------------------------------------------------
+    // Players
+    // --------------------------------------------------------
 
     mergeNestedStats(
         target.players,
@@ -165,11 +190,19 @@ const mergePlacement = (
     );
 
 
+    // --------------------------------------------------------
+    // Characters
+    // --------------------------------------------------------
+
     mergeNestedStats(
         target.characters,
         source.characters || {}
     );
 
+
+    // --------------------------------------------------------
+    // Player + Character
+    // --------------------------------------------------------
 
     for (
         const [playerId, characters]
@@ -189,7 +222,9 @@ const mergePlacement = (
 
         for (
             const [characterId, placements]
-            of Object.entries(characters)
+            of Object.entries(
+                characters || {}
+            )
         ) {
 
             if (
@@ -214,32 +249,39 @@ const mergePlacement = (
 
 
 // ============================================================
-// Merge Games
+// MERGE GAMES
 //
-// Game paths are UNIQUE.
+// IMPORTANT:
 //
-// Therefore we do NOT add them.
-// We simply preserve the path.
+// Games are now numeric occurrence counts.
 //
+// Example:
+//
+// characters:
+// {
+//     "3": {
+//         "season-1/na/event-2/game-1": 2
+//     }
+// }
+//
+// This means Character 3 appeared twice in that game.
+//
+// Therefore we ADD game counts when merging.
 // ============================================================
 
 const mergeGames = (
-    target = {},
-    source = {}
+    target,
+    source
 ) => {
 
     // --------------------------------------------------------
     // All Games
     // --------------------------------------------------------
 
-    for (
-        const gamePath
-        of Object.keys(source.all || {})
-    ) {
-
-        target.all[gamePath] = true;
-
-    }
+    mergeCounts(
+        target.all,
+        source.all || {}
+    );
 
 
     // --------------------------------------------------------
@@ -262,14 +304,10 @@ const mergeGames = (
         }
 
 
-        for (
-            const gamePath
-            of Object.keys(games)
-        ) {
-
-            target.players[playerId][gamePath] = true;
-
-        }
+        mergeCounts(
+            target.players[playerId],
+            games
+        );
 
     }
 
@@ -294,14 +332,10 @@ const mergeGames = (
         }
 
 
-        for (
-            const gamePath
-            of Object.keys(games)
-        ) {
-
-            target.characters[characterId][gamePath] = true;
-
-        }
+        mergeCounts(
+            target.characters[characterId],
+            games
+        );
 
     }
 
@@ -328,7 +362,9 @@ const mergeGames = (
 
         for (
             const [characterId, games]
-            of Object.entries(characters)
+            of Object.entries(
+                characters || {}
+            )
         ) {
 
             if (
@@ -340,17 +376,12 @@ const mergeGames = (
             }
 
 
-            for (
-                const gamePath
-                of Object.keys(games)
-            ) {
-
+            mergeCounts(
                 target
                     .playerCharacters[playerId]
-                    [characterId]
-                    [gamePath] = true;
-
-            }
+                    [characterId],
+                games
+            );
 
         }
 
@@ -360,7 +391,7 @@ const mergeGames = (
 
 
 // ============================================================
-// Merge Teams
+// MERGE TEAMS
 // ============================================================
 
 const mergeTeams = (
@@ -370,7 +401,7 @@ const mergeTeams = (
 
     for (
         const [teamId, team]
-        of Object.entries(source)
+        of Object.entries(source || {})
     ) {
 
         if (
@@ -397,7 +428,7 @@ const mergeTeams = (
 
 
 // ============================================================
-// Merge Totals
+// MERGE TOTALS
 // ============================================================
 
 const mergeTotals = (
@@ -498,7 +529,7 @@ const mergeTotals = (
 
 
 // ============================================================
-// Filesystem
+// FILESYSTEM
 // ============================================================
 
 async function exists(file) {
@@ -519,7 +550,7 @@ async function exists(file) {
 
 
 // ============================================================
-// Recursive Builder
+// RECURSIVE BUILDER
 // ============================================================
 
 async function buildFolder(folder) {
@@ -577,7 +608,7 @@ async function buildFolder(folder) {
 
 
     // ========================================================
-    // Leaf Node
+    // LEAF NODE
     // ========================================================
 
     if (
@@ -606,7 +637,7 @@ async function buildFolder(folder) {
 
 
     // ========================================================
-    // Parent Node
+    // PARENT NODE
     // ========================================================
 
     const merged =
@@ -619,7 +650,9 @@ async function buildFolder(folder) {
     ) {
 
         const childTotals =
-            await buildFolder(child);
+            await buildFolder(
+                child
+            );
 
 
         mergeTotals(
@@ -631,7 +664,7 @@ async function buildFolder(folder) {
 
 
     // ========================================================
-    // Write Totals
+    // WRITE TOTALS
     // ========================================================
 
     await fs.writeFile(
@@ -655,7 +688,7 @@ async function buildFolder(folder) {
 
 
 // ============================================================
-// Run
+// RUN
 // ============================================================
 
 async function main() {
