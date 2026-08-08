@@ -29,8 +29,7 @@
         "Devil Trigger": 2
       },
       "11": {
-        "P E devil": 1,
-        "P Σ devil": 1
+        "P Σ devil": 2
       },
       "12": {
         "Nagants toilet": 2
@@ -42,19 +41,17 @@
         "Gonkillu5": 2
       },
       "15": {
-        "Kayue": 1,
-        "Ж Kayue": 1
+        "Ж Kayue": 2
       },
       "16": {
-        "?Report Me?": 1,
+        "°¿?Report Me?¿°": 1,
         "º¿?Report Me?¿": 1
       },
       "17": {
         "E | Lethal Two": 2
       },
       "18": {
-        "spooky": 1,
-        "K-×spooky": 1
+        "K-×spooky": 2
       },
       "19": {
         "Kawaii": 2
@@ -63,12 +60,11 @@
         "RuggedUma": 2
       },
       "21": {
-        "Hashira": 1,
+        "Hāshīra": 1,
         "Hāshira": 1
       },
       "22": {
-        "Alucard": 1,
-        "-Alucard-": 1
+        "-Alucard-": 2
       }
     },
     "teams": {
@@ -628,7 +624,8 @@
   },
   "games": {
     "all": {
-      "all": "0[object Object][object Object]"
+      "season-1/na/event-1/game-1": 1,
+      "all": "0[object Object]"
     },
     "players": {
       "1": {
